@@ -1,0 +1,940 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   overflow-x: hidden;
+   
+}
+
+body{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    position:fixed;
+    justify-content: space-between;
+    width: 100%;
+    right: 0;
+    border: 2px solid whitesmoke;
+    top:0;
+    background-color: white;
+    padding:5px 20px;
+    overflow: hidden;
+    z-index: 1;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.links img{
+    width: 70px;
+    height: 70px;
+}
+.links h2{
+    font-size: 36px;
+    font-weight: bold;
+     position: relative;
+     top: 15px;
+     left: 10px;
+}
+.links h2 strong{
+color: rgb(4, 202, 4);
+}
+.links h2 span{
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+.contenu{
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.contenu ul{
+    display: flex;
+}
+.contenu ul li{
+    margin: 0 30px;
+text-align: center;
+justify-content: center;
+text-decoration: none;
+list-style: none;
+}
+.contenu ul li a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 23px;
+    color: #414141;
+    transition: all .1s ease-in-out;
+    font-weight: 700;
+    overflow: hidden;
+}
+.contenu li:hover{
+   border-bottom: 2px solid green;
+   color: white;
+}
+.contenu li a:hover{
+    color: green;
+    font-size: 24px;
+}
+
+.hamburger{
+    display: none;
+}
+.body{
+    text-align: center;
+    color: blue;
+    font-style: normal;
+    font-size:40px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.am{
+    display: flex;
+    padding: 0 0;
+    margin: 0 0;
+}
+.am i{
+    font-size: 30px;
+    color: #1876f2;
+}
+.fa-sharp {
+    color: #1876f2;
+    font-size: 25px;
+}
+.am p{
+    position: relative;
+    margin-left: 14%;
+    margin-top: -1px;
+}
+
+  .doca{
+    display: block;
+    margin-left: 20px;
+}
+.doca i{
+    font-size: 24px;
+    color: #fff;
+}
+.doca span{
+    position: relative;
+    padding: auto 10px;
+    top: -22px;
+    left: 5px;
+}
+.doca span a{
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 2px 3px 2px gray;
+    cursor: pointer;
+}
+.jtp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.jtp div{
+    margin: 30px;
+}
+.contai{
+    text-align: center;
+    position: relative;
+   top: 10px;
+   
+}
+.contai p{
+    font-size: 18px;
+    padding: 3px 10px;
+}
+.contai h3{
+   margin: 10px auto;
+   color: red;
+   font-weight: bold;
+   font-size: 36px;
+}
+.links{
+    overflow: visible;
+}
+.para{
+    display: flex;
+    text-align: center;
+}
+.para p{
+    font-size: 26px;
+    font-weight: bold;
+    color: green;
+    margin:0 15px;
+}
+.para p span{
+    font-weight: 700;
+    font-size: 16px;
+    color:#414141;
+    display: block;
+}
+.org img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 1100px;
+}
+.maria{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dans{
+    display: flex;
+}
+.dedans{
+    background-color: white;
+    border: 2px solid whitesmoke;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+    width: 50%;
+}
+.ssty{
+    margin-right: 700px;
+}
+.dedans h3{
+    color: dodgerblue;
+    margin: 5px 0;
+}
+.dedans p{
+    font-size: 17px;
+}
+.dedans span{
+    color: red;
+    position: absolute;
+    right: 40px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.dedans span i{
+    font-size: 12px;
+}
+.mari{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.doyen{
+    display: flex;
+}
+.doyen img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.doyen h4{
+font-size: 27px;
+margin-top: 40px;
+margin-left: 20px;
+color: green;
+}
+.doyen h4 span{
+    display: block;
+    font-size: 21px;
+    color: red;
+}
+.vincent p{
+    padding: 10px 55px;
+    font-size: 18px;
+}
+.contacter{
+    display: flex;
+    margin-left: 160px;
+    margin: 20px 2px;
+}
+.contacter span{
+    margin:10px 30px;
+    position: relative;
+    font-size: 20px;
+}
+.contacter span strong{
+    display: block;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+.contacter span a{
+    color: #414141;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contacter i{
+    color: #1876f2;
+    font-size: 30px;
+    margin-left: 120px;
+}
+.hour{
+    display: flex;
+    margin-top: 30px;
+}
+.hour hr{
+    padding: 5px;
+    width: 100%;
+}
+.w1{
+    background-color: blue;
+    border: 2px solid blue;
+}
+.w2{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.w3{
+    background-color: red;
+    border: 2px solid red;
+}
+.fils{
+    display: flex;
+    margin-top: 0;
+}
+.update p{
+    margin-left: 20px;
+    margin-top: -20px;
+    color: rgb(161, 160, 160);
+}
+.update span{
+    color: rgb(146, 146, 146);
+    margin-left: 20px;
+    display: block;
+    margin-top: 10px;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+.update p a{
+    color: #368dff;
+}
+.update {
+    color: white;
+}
+.fils strong{
+    font-size: 20px;
+    font-weight:400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fils span{
+    margin-left: 5px;
+    margin-top: 15px;
+    color:#c7c5c5;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.fils img{
+    width: 60px;
+    height: 60px;
+}
+.jesus{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:black;
+    padding: 70px 120px;
+}
+.pere h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.pere span{
+    color: rgb(155, 155, 155);
+    margin: 10px 0;
+    font-weight: 300;
+}
+.pere hr{
+   background-color: green;
+ 
+    margin: 10px 0;
+}
+.pere p{
+    color: rgb(163, 163, 163);
+}
+.instal h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.instal span{
+    color: rgb(131, 131, 131);
+    margin: 10px 0;
+    cursor: pointer;
+    transition: .33s ease-out;
+    font-weight: 300;
+}
+.instal span:hover{
+    border-bottom: 1px solid white;
+}
+.instal span a{
+    color:rgb(131, 131, 131);
+    text-decoration: none;
+    transition: .33s ease-out;
+}
+.instal span a:hover{
+    color: white;
+}
+
+.instal hr{
+    border: 1px solid green;
+    margin: 5px 0;
+}
+.der{
+    background-color: #131010;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+}
+.der span{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+   
+}
+.der span a{
+    color: #368dff;
+}
+.contenu ul li a i{
+    display: none;
+}
+
+
+
+
+
+@media(max-width:800px){
+
+    .jesus{
+        display: block;
+        text-align: justify;
+        padding: 20px 10px;
+    }
+    .fils{
+        margin-top: 0;
+        padding: 20px 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    .fils img{
+        margin-left: 10px;
+    }
+    .fils span{
+        position: relative;
+        right: 15px;
+    }
+    .update span{
+        margin-left: 25px;
+    }
+    .update p{
+        margin-top: -10px;
+       margin-left: 25px;
+    }
+    .pere hr{
+        width: 60%;
+        margin: 10px 1px;
+    }
+    .instal hr{
+width: 60%;
+margin: 10px 1px;
+    }
+    .pere{
+        margin-left: 30px;
+    }
+    .instal{
+        margin-left: 30px;
+    }
+    .der{
+        display: block;
+    }
+    .der span{
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 1.3em;
+        font-weight: 400;
+    }
+    
+  
+    .container{
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        width: 100%;
+        right: 0;
+        top:0;
+        padding:10px 7px;
+        z-index: 1;
+        overflow:visible;
+    }
+    .jtp{
+        display: block;
+    }
+    .para{
+        display: block;
+    }
+    .container{
+        position: fixed;
+        z-index: 1;
+    }
+    .hamburger{
+        display: block;
+    }
+    .links{
+        overflow: visible;
+       
+    }
+    .links img{
+        width: 50px;
+        height: 50px;
+
+    }
+    .links h2{
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+        overflow: visible;
+       left: 3px;
+       font-weight: 400;
+    }
+    .links h2 span{
+        position: relative;
+        top: -4px;
+        font-size: 14px;
+    }
+    .contenu{
+        position: absolute;
+       left: 80px;
+        top: 40px;
+        background-color:black;
+        width: 90%;
+        height: 100vh;
+        transition: all .53s ease-in-out;
+        overflow: hidden;
+        padding: 10px 10px;
+        transform: translate(1000%);
+    }
+    .contenu.open{
+        transform: translate(0);
+    }
+    .contenu ul{
+        flex-direction: column;
+    } 
+     .contenu ul li{
+         margin: 10px 0;
+         border-bottom: 1px solid gray;
+         width: 98%;
+         padding: 10px 0;
+     } 
+      .contenu ul li:nth-child(1){
+        margin-right: 100px;
+     }
+     .contenu ul li:nth-child(2){
+        margin-right: 74px;
+     }
+     .contenu ul li:nth-child(3){
+        margin-right:50px;
+     }
+     
+     .contenu ul li a{
+         font-size: 17px;
+         color:#c7c7c7;
+         display: flex;
+         width: 97%;
+         justify-content: space-between;
+         font-weight: 400;
+     }
+     .contenu ul li a i{
+        display: flex;
+        font-size: 13px;
+        margin-top: 10px;
+     }
+    
+    .contenu ul{
+        flex-direction: column;
+        margin-right: 80px;
+       
+    }
+    
+    .contenu ul li:hover{
+        border-bottom: none;
+    }
+
+
+    
+    .body{
+        text-align: center;
+        color: blue;
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 80px;
+        font-style: normal;
+    }
+    .hamburger{
+        width: 28px;
+        height: 28px;
+        cursor:pointer;
+        border: none;
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color:white ;
+        top: 15px;
+        right: 5px;
+    }
+    .hamburger span{
+        display: block;
+        width:100%;
+        height: 3px;
+        background:#414141;
+        position: absolute;
+        pointer-events: none;
+        transition: opacity 0.3s 0.15s ease-out;
+        cursor: pointer;
+    }
+    .hamburger span:nth-child(1),
+    .hamburger span:nth-child(3){
+        transition: transform 0.53s ease-out;
+    }
+    
+    .hamburger span:nth-child(1){
+        transform: translateY(7px);
+    }
+    .hamburger span:nth-child(3){
+transform: translateY(-7px);
+    }
+    .hamburger.open span:nth-child(1){
+        transform: translate(0) rotate(135deg);
+
+    }
+    .hamburger.open span:nth-child(2){
+        opacity: 0;
+        transition: opacity
+        0s ease out;
+    }
+    .hamburger.open span:nth-child(3){
+        transform: translate(0) rotate(-135deg);
+    }
+
+    body{
+       overflow-y:hidden;
+    }
+    
+    .org{
+        text-align: center;
+        position: relative;
+        top: -80px;
+    }
+    .org img{
+        width: 100%;
+        height: 90%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        
+    }
+    .contai{
+        text-align: center;
+       position: relative;
+       top: -30px;
+    }
+    .contai p{
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.4em;
+    }
+    .contai h3{
+       margin: 5px auto;
+       color: red;
+       font-weight: bold;
+       font-size: 28px;
+    }
+    .contai p{
+        font-size: 20px;
+    }
+    .para p{
+        font-size: 30px;
+        font-weight: bold;
+        color: green;
+        margin:4px 0;
+    }
+    .para p span{
+        font-weight: 700;
+        font-size: 17px;
+        color:#414141;
+        display: block;
+    }
+
+    .maria{
+        text-align: center;
+        margin-top: -80px;
+    }
+    .mari{
+        text-align: center;
+        margin: 13px auto;
+        font-size: 22px;
+        font-weight: bold;
+        color:black;
+    }
+    .dans{
+        display: block;
+    }
+    .dedans{
+        background-color: white;
+        border: 2px solid whitesmoke;
+        padding: 30px 30px;
+        margin: 10px 20px;
+        box-shadow: 2px 2px 2px gray;
+        border-radius: 10px;
+        width: 90%;
+    }
+    .dedans h3{
+        color: dodgerblue;
+        margin: 5px 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .dedans p{
+        font-size: 20px;
+    }
+    .dedans span{
+        color: red;
+        position: absolute;
+        right: 60px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .dedans .ssty{
+       margin-right:10px;
+    }
+    .dedans span i{
+        font-size: 12px;
+    }
+    .doyen {
+       display: flex; 
+       padding: 20px 5px;
+    }
+    .vincent p{
+        font-size: 20px;
+        margin: 0 0;
+        text-align: justify;
+        padding: 0 16px;
+    }
+    .doyen img{
+        width: 90px;
+        border-radius: 50%;
+        height: 90px;
+        margin-left: 20px;
+        box-shadow: 2px 3px 5px white;
+    }
+    .doyen h4{
+        position: relative;
+        top:-4px;
+        left:5px;
+        font-size: 22px;
+        color: green;
+    }
+    .doyen h4 span{
+        display: block;
+        font-size: 17px;
+        color: red;
+    }
+    .doyen p{
+        padding: 3px 40px;
+        font-size: 17px;
+      
+    }
+    .mari{
+        padding: 0 0;
+        margin: 5px 0;
+    }
+    .contacter{
+        margin-left: 40px;
+        padding: 0;
+        display: block;
+    }
+    .contacter span{
+        margin:10px 2px;
+        position: relative;
+        right:0;
+        left: 4px;
+    }
+    .contacter span strong{
+        display: block;
+        margin-left: 30px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .contacter span a{
+        color: #414141;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .contacter i{
+        color: #1876f2;
+        font-size: 30px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+@media(min-width:801px){
+   
+    .links h2{
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 3px;
+    }
+    .links h2 span{
+      margin:10px 0;
+    }
+    .links h2 span{
+        position: relative;
+        top: -8px;
+    }
+    .links img{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .contenu {
+        position: relative;
+        margin-top: 23px;
+        left: 20px;
+    }
+    .contenu ul li{
+        margin: 0 13px;
+    }
+    .contenu ul li a{
+        font-size: 17px;
+       
+    }
+    .contenu ul li a:hover{
+        font-size: 17px;
+    }
+    .jtp{
+        width: 100%;
+       display: block;
+    }
+    .contai{
+        margin-right: 40px;
+        padding: 2px 5px;
+    }
+    .org{
+        margin-right: 190px;
+    }
+    .org img{
+        width: 100%;
+        height: 30%;
+    }
+    .ssty{
+       margin-right:50%;
+    }
+    .doyen{
+        margin-left: 40px;
+    }
+    .vicent p{
+        font-size: 22px;
+    }
+}
+
+
+
+
+@media(min-width:1000px){
+    .jtp{
+        display: flex !important;}
+        .org img{
+            height: 300px !important;
+            width: 100% !important;
+        }
+        .container{
+            padding: 20px auto !important;
+        }
+        .links h2{
+            font-size: 36px !important;
+        }
+        .links h2 span{
+           position: relative !important;
+           top: -20px !important
+           ;
+        }
+        .cent{
+    position: absolute;
+    text-align: center;
+    right: 350px;
+    float: top;
+    margin-top: -270px;
+    
+}
+
+.contai p{
+    font-size: 20px !important;
+}
+.center{
+    margin-left: 80px;
+}
+.doca{
+    position: relative;
+    top: -280px;
+    float: right;
+    right: 130px;
+}
+.doca i{
+    margin-right: 110px;
+}
+
+.contenu ul li a{
+    font-size: 27px !important;
+}
+.links img{
+    width: 70px !important;
+    height: 70px !important;
+}
+.now hr{
+    margin-left: 120px;
+}
+.ta{
+display: block;
+margin-right: 55px;
+}
+.body h3{
+    font-style: normal !important;
+}
+.dedans{
+    padding: 30px 10px;
+}
+.dedans h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.dedans p{
+    font-size: 22px;
+}
+.dedans span{
+    font-size: 20px;
+    
+}
+.vincent p{
+    font-size: 22px !important;
+}
+
+}
+

@@ -1,0 +1,2437 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+/* the part of animation before initialisation */
+
+.animation{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+.animation span{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+    background-color: white;
+    animation: loader 3s linear infinite;
+}
+.animation span:nth-child(1){
+    animation-delay: 0s;
+    background-color: blue;
+    transition: .1s ease-in-out;
+}
+.animation span:nth-child(2){
+    animation-delay: 0.25s;
+    background-color: blue;
+    transition: .1s ease-in-out;
+}
+.animation span:nth-child(3){
+    animation-delay: 0.50s;
+    background-color: yellow;
+    transition: .1s ease-in-out;
+}
+.animation span:nth-child(4){
+    animation-delay: 0.75s;
+    background-color: yellow;
+    transition: .1s ease-in-out;
+}
+.animation span:nth-child(5){
+    animation-delay: 1s;
+    background-color: red;
+    transition: .1s ease-in-out;
+}
+.animation span:nth-child(6){
+    animation-delay: 1.25s;
+    background-color: red;
+    transition: .1s ease-in-out;
+}
+@keyframes loader {
+    0%,100%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+.ajoute{
+    opacity: 0;
+    visibility: hidden;
+}
+
+#cookie_banner{
+    position:fixed;
+    width: 45%;
+    background-color: azure;
+    padding: 50px 10px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin: 4px;
+    right: 5px;
+    transform: translate(0,0);
+    left: 60px;
+    animation: omo;
+    animation-duration: 2s;
+    transition: .33s linear;
+    top: 40%;
+    text-align: center;
+    display: none;
+    line-height: 1.3em;
+    font-size: 24px;
+}
+@keyframes omo {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 60px;
+    }
+}
+#message{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#bouttons button{
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+   border-radius:5px;
+}
+.accept{
+    background-color:rgb(228, 93, 93);
+    color: white;
+    border: 2px solid rgb(228, 93, 93);
+}
+.refuse{
+    background-color:rgba(61, 255, 61, 0.897);
+    color: white;
+    border: 2px solid rgba(61, 255, 61, 0.897);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+    background-color:rgb(2, 109, 2);
+}
+.span {
+    color: aquamarine;
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+}
+.span span:hover{
+    color: whitesmoke;
+    border-bottom: 1px solid white;
+}
+.contenu ul{
+    display: flex;
+    padding: 0 40px;
+}
+.contenu ul li{
+    margin: 0 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    list-style: none;
+}
+.span i{
+    margin-right: 10px;
+}
+ .aria{
+    position: relative;
+    background-color:aliceblue;
+    padding: 15px 10px ;
+    color:green;
+    top: -15px;
+    
+}
+.contenu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color:aquamarine;
+}
+.contenu ul li a i {
+    display: none;
+}
+#ko{
+    display: none;
+}
+.contenu ul li a:hover{
+    color: white;
+}
+ .obet{
+     position:sticky;
+    top:0;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    z-index:100;
+    margin: 0;
+    transition: .1s linear;
+}
+
+.contain{
+    display: flex;
+    overflow: hidden;
+}
+.contain img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+.obet.remove {
+    padding: -20px 5px;
+    transition: .22s linear;
+    .contain h2{
+        font-size: 38px;
+        transition: .22s linear;
+    }
+    .contain img{
+         width: 80px;
+         height: 80px;
+          transition: .22s;
+    }
+    .center ul li a{
+        font-size: 17px;
+        transition: .22s linear;
+    }
+    .center ul{
+        padding: 10px 0;
+        transition: .22s linear;
+    }
+    .gi{
+        top: 105px;
+    }
+    .gis{
+        top: 105px;
+    }
+    .repeat{
+        top: 105px;
+    }
+    .life{
+        top: 105px;
+    }
+    .hard{
+        top: 105px;
+    }
+    .theque{
+        top: 105px;
+    }
+}
+.contain h2{
+    position: relative;
+    top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 6px;
+    transition: .33s;
+}
+.contain h2 strong{
+    color: rgb(0, 204, 0);
+}
+.contain h2 span{
+    display: block;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.center ul{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 30px;
+    /* overflow: hidden; */
+    padding: 0 0;
+}
+.center ul li{
+    margin: 0 15px;
+     list-style: none;
+     transition: 99s linear;
+    
+}
+.center ul li a{
+    text-decoration: none;
+    font-size: 15px ;
+    color: #414141;
+    font-weight: 600;
+    /* overflow: hidden; */
+    padding-bottom: 28px;
+transition: .33s linear;
+
+}
+.home{
+    color: green;
+   border-bottom: 8px solid green;
+  padding-bottom: 27px;
+  margin: 0;
+}
+.home a{
+    color: green;
+}
+.center ul li a:hover{
+   color: green;
+   border-bottom: 8px solid green;
+}
+
+.center ul li:hover
+.gisi{
+    display: block;
+    
+}
+.hamburger{
+    display: none;
+}
+#de{
+    display: none;
+}
+#def{
+    display:none;
+}
+#defe{
+    display:none;
+}
+#defer{
+    display: none;
+}
+#kon{
+    display: none;
+}
+.gisi{
+    display: none;
+    
+}
+
+.gis{
+    display: flex;
+    position: absolute;
+    top: 85px;
+   right: 110px;
+   background-color:azure;
+   padding: 30px 40px;
+}
+
+
+
+.repeat{
+    display: flex;
+    position: absolute;
+    top: 85px;
+   right: 110px;
+   background-color:azure;
+   padding: 30px 40px;
+   
+}
+.doubl{
+    display: block;
+}
+.doubl h2{
+    color: green;
+    margin-top: -20px;
+}
+.doubl ul{
+    display: block;
+    margin-top: -10px;
+}
+.doubl ul li{
+    margin: 10px 0;
+   
+}
+.doubl ul li:hover{
+    border-bottom: 1px solid green;
+}
+.doubl ul li a{
+    font-size: 16px;
+    font-weight: 400;
+}
+.doubl ul li a:hover{
+    border-bottom: none;
+}
+
+.oop{
+    display: block;
+    border-left: 2px solid green;
+    padding: 0 20px;
+}
+.oop h2{
+    color: green;
+}
+.oop ul{
+    display: block;
+    margin-top: -3px;
+}
+.oop ul li{
+    margin: 10px 0;
+   cursor: pointer;
+}
+.oop ul li:hover{
+    border-bottom: 1px solid green;
+}
+.tesla{
+    display: block;
+}
+.tesla ul{
+    display: block;
+    margin-top: 0;
+    
+}
+.tesla ul li{
+    margin: 10px 0;
+}
+.tesla ul li a{
+    font-size: 15px;
+    font-weight: 300;
+}
+.tesla ul li a:hover{
+    color: green;
+    border: none;
+}
+.tesla h2{
+   
+    color: green;
+    margin-top: 35px;
+}
+.model{
+    display: block;
+    margin-top: 30px;
+}
+.model h2{
+    text-align: center;
+    color: green;
+}
+.model ul {
+    display: block;
+    margin-top: -10px;
+    border-left: 2px solid green;;
+    padding: 30px;
+}
+.model ul li{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #414141;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.model ul li:hover{
+    border-bottom: 2px solid green;
+    color:green;
+}
+.gi{
+    display: block;
+    position: absolute;
+    top: 85px;
+    background-color: azure;
+    padding:0 30px;
+}
+.gi ul{
+display: block;
+
+}
+.gi ul li{
+    margin: 15px 0;
+    cursor: pointer;
+}
+.gi ul li:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.hard{
+    display: block;
+    position: absolute;
+    top: 85px;
+    background-color: azure;
+    padding:0 30px;
+}
+.hard ul{
+display: block;
+
+}
+.hard ul li{
+    cursor: pointer;
+    margin: 15px 0;
+}
+.hard ul li:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+ 
+
+.life{
+    display: block;
+    position: absolute;
+    top: 85px;
+    background-color: azure;
+    padding:0 30px;
+}
+.life ul{
+display: block;
+
+}
+.life ul li{
+    margin: 15px 0;
+    cursor: pointer;
+}
+.life ul li:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.theque{
+    display: block;
+    position: absolute;
+    top: 85px;
+    background-color: azure;
+    padding:0 30px;
+}
+.theque ul{
+display: block;
+
+}
+.theque ul li{
+    /* margin: 15px 0; */
+    cursor: pointer;
+    padding: 0;
+
+}
+.theque ul li:hover{
+    color: green;
+   border: none;
+
+  margin: 0;
+}
+.theque ul li a{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.theque ul li a:hover{
+    border: none;
+    
+}
+
+.box{
+    width: 100%;
+    height:450px;
+    animation: felix;
+    animation-duration: 33s;
+    animation-iteration-count: infinite;
+    transition: 30s linear;
+    margin-top:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@keyframes felix {
+         0%{background-image: url("../img/bibliotheques.jpeg");
+        margin-left: 50px 50px 0 0;transition: 0.2s ease-out;}
+        50%{background-image: url("../img/universitaire.jpg");
+        top: 50px 50px 50px 0;transition: 0.2s ease-out;}
+       100%{background-image: url("../img/campus.jpg");
+        top:50px 50px 50px 50px;transition: 0.2s ease-out;}
+}
+.dot{
+    display: inline-block;
+    padding: 24px 15px;
+    color: white;
+    background:rgba(0, 128, 0, 0.795); 
+    margin-top: 40%;
+    margin-left: 20px;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 400;
+    opacity: 0.9;
+    text-shadow: 2px 2px 2px 2px black;
+   
+}
+.dot strong{
+    font-size: 43px;
+}
+.button{
+    margin-right:0;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 20%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    padding: 10px;
+    border-left:6px solid rgb(32, 206, 32); 
+    background-color: white;
+    opacity: 0.8;
+}
+.sol{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(83, 253, 111);
+}
+.panpa{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 40px;
+    margin-left: 30px;
+}
+
+.ter{
+    font-size: 32px ;
+    color: green;
+    font-weight: bold;
+}
+.ter img{
+    width: 70px;
+    height: 70px;
+}
+.ter span{
+    position: relative;
+    left: 10px;
+}
+.walt{
+    font-size: 32px ;
+    color: green;
+    font-weight: bold;
+}
+.walt img{
+    width: 70px;
+    height: 70px;
+}
+.walt span{
+    position: relative;
+    left: 10px;
+}
+.west{
+    font-size: 32px;
+    font-weight: bold;
+    color: green;
+}
+.west img{
+    width: 130px;
+    height: 120px;
+    margin-top: -15px;
+}
+.west span{
+   position: relative;
+   top: -30px;
+}
+.dessous{
+    background-image: url("../img/image\ back.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.sala{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    opacity: 0.8;
+}
+.sala h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.sala h3{
+    color: green;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.sala h3 strong{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sala p{
+    text-align: justify;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.8em;
+    padding: 0 30px;
+}
+.sala button{
+    background-color:green;
+    padding: 10px 10px;
+    float: right;
+    margin-top: -20px;
+    border-radius: 5px;
+}
+.sala button a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+.debypere{
+    display: flex;
+}
+.deby{
+    width:100%;
+    height: 560px;
+    background-image: url("../img/Deby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pap {
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.842) ;
+    width: 100%;
+    height: 100%;
+    top:0;
+    margin:0 23px 0 0;
+    bottom: 5.6%;
+    padding: 30px;
+}
+.pap h1{
+    color: green;
+    padding: 26px 0 0 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+.papi{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    background-color: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    
+}
+.papi span{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    animation: lore 2s linear infinite;
+    margin: 0;
+}
+.papi span:nth-child(1){
+    animation-delay: 0s;
+    background-color: blue;
+}
+.papi span:nth-child(2){
+    animation-delay: 0.25s;
+    background-color: blue;
+}
+.papi span:nth-child(3){
+    animation-delay: 0.50s;
+    background-color: yellow;
+}
+.papi span:nth-child(4){
+    animation-delay: 0.75s;
+    background-color: yellow;
+}
+.papi span:nth-child(5){
+    animation-delay: 1s;
+    background-color: red;
+}
+
+@keyframes lore {
+    0%,100%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+.deuxieme{
+    opacity: 0;
+    visibility: hidden;
+    display: hidden;
+}
+
+.pap p{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    flex-direction: column;
+    line-height: 1.5;
+    display: flex;
+    color: rgb(194, 223, 248);
+    font-size: 30px;
+    margin-bottom: 23px;
+    font-weight: bold;
+    padding: -10px 200px 0 0;
+    top: 30px;
+}
+.cela{
+    background-image: url("../img/republiqu.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 5.6%;
+    position: relative;
+}
+.pap span{
+    color: aquamarine;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 70px;
+    float: right;
+    margin-right: 30px;
+}
+.pap button{
+    color:white;
+    background:green;
+    padding: 12px 8px;
+    border-radius: 5px;
+    margin: 18px;
+    font-size: 20px;
+    font-weight: 300;
+    transition:all .5s ease-out;
+    text-align: center;
+    align-items: center;
+    float: right;
+    position:relative;
+    top: 90px;
+    right: 79px;
+}
+.reel h1{
+    color: midnightblue;
+    font-size: 37px;
+    font-weight: bold;
+    margin: 30px;
+}
+.reel h1 strong{
+    color: green;
+    font-weight: 600;
+    font-size: 28px;
+}
+.reel h1 span{
+    color:#0e0d0d;
+    font-weight: 800;
+    font-size: 30px;
+    
+}
+.qwerty{
+    display: flex;
+    margin-left: 30px;
+}
+.contner{
+    margin-left: 0;
+}
+.contner span{
+    font-size: 46px;
+    font-weight: bold;
+    margin:20px 0;
+}
+.aple span{
+   position: relative;
+   top: 10px;
+   left: 20px;
+   font-size: 30px;
+   font-weight: 600px;
+}
+.togui{
+    width:100%;
+    padding: 15px 1px;
+    background: hsla(240, 54%, 14%, 0.925);
+}
+.togui h1{
+    color: white;
+    position: relative;
+    padding: 15px 4px 0 0;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.togui p{
+   
+    text-align:justify;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+    line-height: 1.7em;
+    padding: 0 100px;
+}
+.doc{
+    padding: 8px 6px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    margin-left: 70%;
+    font-size: 20px;
+    margin-top: 32px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.togui a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color:green;
+}
+.togui img{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+margin-left: 45%;
+}
+.togui span{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-left: 37%;
+}
+.sur{
+    margin-left: 13%;
+    position: relative;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.sur div{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.sur div h2{
+    font-size: 30px;
+}
+.sur h2{
+    color: white;
+    font-size: 23px;
+}
+.sur div h3 strong{
+    font-size: 30px;
+}
+
+.sur h2 strong{
+    color: yellow;
+    font-size: 30px;
+}
+.sur h3{
+    color: white;
+    font-size: 24px;
+}
+.sur h3 strong{
+    color:yellow;
+    position: relative;
+    left: 10px;
+}
+.sur h3 button{
+    background-color: yellow;
+    padding: 5px 5px;
+}
+.sur button a{
+    background-color: yellow;
+    color: black;
+}
+.anse{
+    text-align: center;
+}
+.anse h3{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(42, 4, 70);
+    margin: 16px 0;
+    display: flex;
+    padding: 0 10px;
+    margin-left: 60px;
+    word-wrap: break-word;
+}
+.anse hr{
+    border: 1px solid gray;
+    width:100px;
+    height: 1px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.anse img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+   margin: 0 40px;
+}
+.anse h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(68, 2, 126);
+}
+.tout{
+    display: flex;
+    margin: 0 50px;
+}
+.voisine{
+    display: block;
+    margin-top: 70px;
+}
+.voisine div span a{
+    text-decoration: none;
+    color: #414141;
+}
+.voisine div span a:hover{
+    color: rgb(5, 177, 5);
+   border-bottom: 2px solid rgb(5, 177, 5);
+}
+.voisin{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.voisin img{
+    width: 20vh;
+    height: 10vh;
+    margin-top: 14px;
+}
+.voisin span{
+    display: inline-block;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+}
+.tata{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.tata img{
+    width: 33vh;
+    height: 10vh;
+}
+.tata span{
+    display: inline-block;
+    position: relative;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    font-family: sans-serif;
+}
+.ephraim{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.ephraim img{
+    width: 20vh;
+    height: 10vh;
+    margin-top: 14px;
+}
+.ephraim span{
+    display: inline-block;
+    position: relative;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+.laureat{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.laureat img{
+    width:36vh;
+    height: 10vh;
+    margin-top: 2px;
+}
+.laureat span{
+    display: inline-block;
+    position: relative;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0%;
+font-family: sans-serif;
+}
+.yan{
+    padding: 8px 7px;
+    border-radius: 6px;
+    list-style: none;
+    background-color: green;
+    color: white;
+    float: right;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+    margin-top: -100px;
+}
+.yan a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.alph{
+    margin-left: 20px;
+    margin-top: 120px;
+}
+.alph p{
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align:center;
+    margin-top: 2px;
+    margin-right: 0%;
+    padding: 0 60px;
+    line-height: 1.7em;
+    justify-content: center;
+    margin-left: -10px;
+    position: relative;
+}
+.alph h2{
+    color:rgb(233, 23, 23);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.alph button {
+    
+    background-color:rgb(45, 45, 109);
+    padding: 8px 7px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px;
+    float: right;
+    position: relative;
+    right: 70px;
+}
+.alph a{
+    list-style: none;
+    color:white;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.alph button:hover,
+.alph button:active{
+    background-color: green;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 6px;
+}
+.abstrac{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.casi{
+    background-image: url("../img/embleme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   top: 50px;
+    position: relative;
+    right: 60px;
+    width: 100%;
+    height: 435px;
+    
+}
+.if{
+    background-color: rgb(11, 1, 20);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -15px;
+    position: relative;
+    padding: 20px 0;
+    opacity: 0.9;
+}
+.if h2{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.if div {
+    display: flex;
+}
+.if div a{
+   margin-left: 40px;
+   text-decoration: none;
+   line-height: 1.3em;
+   font-size: 17px;
+   font-weight: 600;
+}
+.if div span:hover{
+    color: rgb(2, 192, 2);
+    border-bottom: 2px solid green;
+}
+.if h3{
+    text-align: center;
+    color: rgb(88, 180, 88);
+    padding: 20px 0;
+    font-size: 20px;
+}
+.if hr{
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    margin-top: 10px;
+    
+}
+.if div img{
+    width: 70px;
+    height: 80px;
+   margin-left: 40px;
+}
+
+.top{
+    top: -10px;
+    color: #fff;
+}
+.ass{
+    background-color:#1876f2;
+    color: white;
+    padding: 20px 0;
+    width:100%;
+
+}
+.ass h2{
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+.oh div img{
+    background-color: blue !important;
+}
+.oh{
+    width:100%;
+   background-color: rgb(10, 6, 34);
+   padding: 30px 0;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+.oh img{
+    width:70px;
+    height:70px;
+    margin-left:15px;
+    background-color:blue !important;
+    border-radius: 30%;
+    filter: opacity(0.4);
+}
+
+.oh h2{
+    color: white;
+    margin-left: 16px;
+}
+.oh p{
+    color: white;
+    margin-left: 23px;
+}
+.oh button{
+margin-top: 0;
+padding: 6px 5px;
+background-color: rgba(231, 231, 24, 0.918);
+margin-left: 15%;
+cursor: pointer;
+border-radius: 6px;
+color: green;
+font-weight: 700;
+}
+.oh div button a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+}
+.writer{
+    display: flex;
+}
+
+.erees{
+    width:100%;
+    
+    background-color: rgba(121, 6, 92, 0.548);
+    padding:10px 10px;
+}
+.erees h3{
+   color: rgb(15, 236, 15);
+   font-size: 38px;
+   font-weight: bold;
+   text-shadow: 2px 2px 2px gray;
+   text-align: center;
+   font-weight: bold;
+}
+.erees p{
+    color: white;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 24px;
+    margin-right: 10px;
+    line-height: 1.7em;
+    margin-top:30px;
+}
+.erees div{
+    margin-top: 130px;
+    float: right;
+}
+.del{
+    background-color: green;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#del{
+    background-color: red;
+    padding: 10px 8px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.profe img{
+    width:700px;
+    height: 100%;
+    border: 2px solid white;
+}
+.class{
+    margin: 30px;
+}
+.class h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color:rgb(49, 1, 94);
+}
+.class p{
+    padding: 0 40px;
+    line-height: 1.4em;
+    font-size: 20px;
+    font-weight: 500;
+}
+.class button{
+    
+    position: relative;
+    left: 100px;
+    top: 20px;
+    bottom: 20px;
+    padding: 10px 10px;
+    background-color: rgb(8, 207, 8);
+    border-radius: 5px;
+}
+.class button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.corn{
+    display: flex;
+}
+.corn img{
+    width: 100%;
+    margin: 0 50px;
+    height: 50vh;
+    border-radius: 10px;
+}
+.corn div h2{
+    color:red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.corn div p{
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+.corn div button{
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 40px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.hour{
+    display: flex;
+    margin-top: 30px;
+}
+.hour hr{
+    padding: 5px;
+    width: 100%;
+}
+.w1{
+    background-color: blue;
+    border: 2px solid blue;
+}
+.w2{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.w3{
+    background-color: red;
+    border: 2px solid red;
+}
+.fils{
+    display: flex;
+    margin-top: -10px;
+}
+.update p{
+    margin-left: 20px;
+    margin-top: -20px;
+    color: rgb(161, 160, 160);
+}
+.update span{
+    color: rgb(146, 146, 146);
+    margin-left: 20px;
+    display: block;
+    margin-top: 10px;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+.update p a{
+    color: #368dff;
+}
+.update {
+    color: white;
+}
+.fils strong{
+    font-size: 20px;
+    font-weight:400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fils span{
+    margin-left: 5px;
+    margin-top: 15px;
+    color:#c7c5c5;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.fils img{
+    width: 60px;
+    height: 60px;
+}
+.jesus{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:black;
+    padding: 70px 120px;
+}
+.pere h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.pere span{
+    color: rgb(155, 155, 155);
+    margin: 10px 0;
+    font-weight: 300;
+}
+.pere hr{
+   background-color: green;
+ 
+    margin: 10px 0;
+}
+.pere p{
+    color: rgb(163, 163, 163);
+}
+.instal h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.instal span{
+    color: rgb(131, 131, 131);
+    margin: 10px 0;
+    cursor: pointer;
+    transition: .33s ease-out;
+    font-weight: 300;
+}
+.instal span:hover{
+    border-bottom: 1px solid white;
+}
+.instal span a{
+    color:rgb(131, 131, 131);
+    text-decoration: none;
+    transition: .33s ease-out;
+}
+.instal span a:hover{
+    color: white;
+}
+
+.instal hr{
+    border: 1px solid green;
+    margin: 5px 0;
+}
+.der{
+    background-color: #131010;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+}
+.der span{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+   
+}
+.der span a{
+    color: #368dff;
+}
+.btn{
+    position: fixed;
+}
+#sins{
+    visibility: hidden;
+    display: none;
+}
+.fa-solid{
+    visibility: hidden;
+    display: none;
+}
+
+
+
+
+
+
+
+@media(max-width:900px){
+    .sol{
+        height: 150px;
+    }
+   
+    .box{
+        margin-top: 75px;
+    }
+   
+    .dot{
+        font-size: 15px;
+        width: 87%;
+        font-weight: bold;
+    }
+    .dot strong{
+        font-size: 17px;
+    }
+    .button{
+        font-size: 15px;
+        padding: 4px 7px;
+        width: 35%;
+        margin-left: 20px;
+    }
+    .btn{
+        position: fixed;
+    }
+    .panpa{
+        display: block;
+        margin: -10px 15px;
+    }
+    .panpa span{
+        font-size: 20px !important;
+    }
+    .ter img{
+        width: 50px;
+        height: 50px;
+    }
+    .walt img{
+        width: 50px;
+        height: 50px;
+    }
+    .west img{
+       position: relative;
+       right: 15px;
+       width: 90px;
+       height: 80px;
+    }
+    .west span{
+        position: relative;
+        right: 20px;
+        top:-17px;
+    }
+    .sala h1{
+        font-size: 23px;
+        display: flex !important;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .sala h3{
+        font-size: 20px;
+        margin: 5px 0;
+        margin-top: 5px;
+    }
+    .sala h3 strong{
+        font-size: 19px;
+       
+    }
+    .sala h3 strong span{
+        display: block;
+    }
+    .sala p{
+        text-align:justify;
+        padding: 0 2px;
+        font-size: 16px;
+        word-spacing: normal;
+        margin-top: 0;
+    }
+    .aple{
+       
+        position: relative;
+        right: 15px;
+        padding: 0 20px;
+    }
+    .debypere{
+        display: block;
+    }
+    .deby{
+        height: 340px;
+    }
+    .cela{
+        height: 60vh;
+    }
+    .pap{
+        height: 100%;
+        padding: 10px 0;
+    }
+    .pap h1{
+        font-size: 26px;
+    }
+    .pap p{
+        font-size: 19px;
+    }
+    .pap span{
+        font-size: 18px;
+    }
+    .pap button{
+       margin-left: 60px;
+       margin-bottom: 0;
+    }
+    .reel h1{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .reel h1 strong{
+        font-size: 25px;
+    }
+    .reel h1 span{
+        font-size: 22px;
+    }
+    .contner span{
+        font-size: 24px;
+    }
+    .aple{
+        margin-top: 8px;
+    }
+    .aple span{
+        font-size: 22px;
+        margin-top: 14px;
+    }
+    .togui h1{
+margin: 10px 0;
+font-size: 25px;
+    }
+    .togui p{
+        padding: 0 15px;
+        text-align: justify;
+        font-size: 17px;
+    }
+    .togui .doc{
+       position: relative;
+       padding: 3px 10px;
+       text-align: center;
+       width: 40%;
+      right: 38%;
+    }
+    .doc a{
+        font-size: 16px;
+    }
+    .togui img{
+        margin-left: 36%;
+        width: 100px;
+        height: 100px;
+    }
+    .togui span{
+     font-size: 16px;
+     padding: 0 0;
+     /* margin: 0 18%; */
+     font-weight: 300;
+     transform: translate(-50%,-50%);
+     position: absolute;
+     left: 12%;
+    }
+    .sur{
+        display: block;
+        margin-left: 30px;
+    }
+    .sur h3{
+        font-size: 20px;
+    }
+    .sur div{
+        display: block;
+        /* width: 110%;
+        justify-content: space-between;
+        padding: 3px 30px;
+        text-align: center;
+        position: relative;
+        margin: 16px 0; */
+    }
+    .tout{
+        display: block;
+        margin-left: 0;
+        margin: 0 0;
+    }
+    .anse img{
+        height: 35vh;
+        margin-left:12px;
+        width: 95%;
+    }
+    .anse h2{
+        font-size: 23px;
+    }
+    .anse h3{
+        margin-left: 0;
+        font-size: 23px;
+        font-weight: 800;
+    }
+    .voisine{
+        display: block;
+        margin-top: 0;
+    }
+    .voisine span{
+        font-size: 15px;
+    }
+    .voisin img{
+        width: 57%;
+    }
+    .ephraim img{
+        width: 56%;
+       
+    }
+    .tata img{
+        width: 100%;
+       
+    }
+    .laureat img{
+        width: 100%;
+    }
+    .yan{
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+    .abstrac{
+        display: block;
+        overflow: hidden;
+    }
+    .alph h2{
+        font-size: 18px;
+    }
+    .alph p{
+        padding: 0 5px;
+        text-align: justify;
+        font-size:18px !important;
+        font-weight: 400;
+    }
+    .casi{
+        margin-left: 60px;
+        overflow: hidden;
+        margin-top: -60px;
+        height: 500px;
+    }
+    .if{
+height: 500px;
+overflow: hidden;
+    }
+    .oh{
+        display: block;
+        padding: 20px 20px;
+    }
+    .ass h2{
+        font-size: 23px;
+    }
+    .oh div img{
+        margin: 10px 20px;
+    }
+    .oh div button a{
+        text-decoration: none;
+        color: green;
+        font-size: 15px;
+    }
+    .writer{
+        display: block;
+    }
+    .erees div{
+        margin-top: 10px;
+    }
+    .erees h3{
+        font-size: 25px;
+        margin: 0 0;
+    }
+    .erees p{
+        /* text-align: justify; */
+        font-size: 22px;
+        margin: 0 0;
+        padding: 0 3px;
+    }
+    .profe img{
+        width:100%;
+        border-radius: 5px;
+    }
+    .class {
+        height: 100%;
+        /* overflow: hidden; */
+       padding: 15px 0;
+    }
+    .class h2{
+        font-size: 23px;
+    }
+    .class p{
+        padding: 0 2px;
+        text-align: justify;
+        font-size: 21px;
+        line-height: 1.4em;
+        font-weight: 400;
+    }
+    .class button{
+        padding: 6px 5px;
+    }
+    .corn{
+        display: block;
+    }
+    .corn img{
+        width: 95%;
+       position: relative;
+       right: 41px;
+       height: 40vh;
+    }
+    .corn div{
+        padding: 40px 0;
+    }
+    .corn div p{
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .jesus{
+        display: block;
+        text-align: justify;
+        padding: 20px 10px;
+    }
+    .fils{
+        margin-top: 0;
+        padding: 20px 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    .fils img{
+        margin-left: 10px;
+        width: 60px;
+       height: 60px;
+    }
+    .fils span{
+        position: relative;
+        right: 15px;
+    }
+    .update span{
+        margin-left: 25px;
+    }
+    .update p{
+        margin-top: -10px;
+       margin-left: 25px;
+    }
+    .pere hr{
+        width: 60%;
+        margin: 10px 1px;
+    }
+    .instal hr{
+width: 60%;
+margin: 10px 1px;
+    }
+    .pere{
+        margin-left: 30px;
+    }
+    .instal{
+        margin-left: 30px;
+    }
+    .der{
+        display: block;
+    }
+    .der span{
+        display: block;
+        margin: 10px 0;
+        font-size: 14px;
+        line-height: 1.3em;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:1100px){
+    .box{
+
+        margin-top: 60px;
+    }
+    .alph{
+        margin-top: 40px;
+    }
+    .alph h2{
+        font-size: 25px;
+        margin-top: 15px;
+        margin: 0;
+        text-align: none;
+        margin-right: 20px;
+    }
+    .alph p{
+        font-size: 20px;
+        padding: 0 10px;
+        word-wrap: break-word;
+        font-weight: 300;
+       line-height: 1.2em;
+    }
+    .sala h3 strong{
+     font-size: 23px;
+    }
+    .sala h3 span{
+        display: flex;
+    }
+    .sala p{
+        font-size: 20px;
+        font-weight: 500;
+        opacity: 0,1;
+        
+    }
+    .home {
+        width: 20% !important;
+    }
+    #sins{
+        visibility: visible;
+        display:block;
+    }
+    .fa-solid{
+        visibility: visible;
+        display: block;
+    }
+
+    *{
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    #de{
+        display:block;
+        margin-left: 30%;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    #def{
+        display:block;
+        margin-left: 40%;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    #defe{
+        display:block;
+        margin-left: 55%;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    #defer{
+        display:block;
+        margin-left:48%;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    #kon{
+        display:block;
+        margin-left: 18%;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    
+    .center ul li a{
+        display: flex;
+        font-size: 17px;
+    }
+    #ko{
+        display: block;
+        margin-left: 44%;
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    .obet{
+        width: 100%;
+        position: fixed;
+        overflow: visible;
+        padding: 8px 5px;
+        border: 2px solid white;
+        border-bottom: 1px solid gray;
+    }
+    .obet.remove {
+        padding:8px 5px;
+        .contain h2{
+            font-size: 19px;
+        }
+        .contain img{
+             width: 50px;
+             height: 50px;
+              transition: .33s;
+        }
+        .center ul li a{
+            font-size: 16px;
+        }
+        .gis{
+            top:0 ;
+        }
+        .gis ul{
+            padding: 0;
+        }
+        .repeat{
+            top: 0;
+        }
+        .repeat ul{
+            padding: 0;
+        }
+        .gi{
+            top: 0;
+        }
+        .gi ul{
+            padding: 0;
+        }
+        .life{
+            top: 0;
+        }
+        .life ul{
+            padding: 0;
+        }
+        .hard{
+            top: 0;
+        }
+        .hard ul{
+            padding: 0;
+        }
+        .theque{
+            top: 0;
+        }
+        .theque ul{
+            padding: 0;
+        }
+    }
+    .container{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .contain img{
+        width: 40px;
+        height: 40px;
+        margin-top: 8px;
+    }
+    .contain h2{
+        font-size: 19px;
+        margin-top: -9px;
+        margin-left: 2px;
+       color: #414141;
+       font-weight: 400;
+    }
+    .contain h2 span{
+        font-size: 13px;
+    }
+    .contain img{
+        width: 50px;
+        height: 50px;
+    }
+    .center{
+        position: absolute;
+        right: -3px;
+        top: 100%;
+        width: 85%;
+        background-color:black;
+        height: 100vh;
+        max-height: 0;
+        transition: max-height 1s linear;
+    }
+    .center.open{
+        max-height: 1000px;
+    }
+    
+    .center ul{
+      flex-direction: column;
+      position:relative;
+      right: 0;
+      left: 30px;
+      overflow: hidden;
+    }
+    .center ul li{
+        margin: 10px 0;
+        border-bottom: 1px solid gray;
+        width: 85%;
+        padding: 10px 0;
+        
+    }
+    .center ul li a{
+        padding: 0;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(184, 183, 183);
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .center ul li:hover{
+        border-bottom: none;
+    }
+   
+    .home{
+        color: green;
+       border-bottom: 2px solid green;
+      padding: 0;
+      width: 22%;
+    }
+    .home a{
+        color: green;
+        font-size: 17px;
+        border-bottom: none;
+    }
+    .home a:hover{
+        border-bottom: none;
+    }
+    .gis .model{
+        display: none;
+    }
+    .sa{
+        display: none;
+    }
+    /* .gisi {
+        width: 100%;
+        padding: 2px 30px;
+        position:absolute;
+        height: 100vh;
+        top: 0;
+        background-color:white;
+    } */
+   .gis{
+    background-color: black;
+    /* position: absolute; */
+    top:0;
+    height: 100%;
+    padding: 2px 3px;
+    left: 0;
+    position:absolute;
+    bottom:0;
+    overflow: hidden;
+    display: block;
+   }
+   .gis ul{
+   margin-right: 100px;
+   padding: 0 0 !important;
+   }
+   #sins a:hover{
+    border-bottom: none;
+   }
+   .tesla{
+        width: 100%;
+        height: 100vh;
+        background-color:black;
+        margin-top: 0;
+        position: fixed;
+        padding: 0 0;
+    }
+    .tesla ul{
+        position: absolute;
+        left: 0;
+    }
+    .tesla ul li{
+        width: 100%;
+       
+    }
+    .tesla ul li a{
+        color: #c9c6c6;
+    }
+    .tesla h2{
+        display: none;
+    }
+    .repeat{
+        background-color: black;
+        /* position: absolute; */
+        right: 0;
+        top:0;
+        height: 100%;
+        padding: 2px 10px;
+        left: 0;
+        position:absolute;
+        bottom:0;
+        overflow: hidden;
+        display: block;
+    }
+    .repeat ul li{
+        width: 100%;
+        font-size: 16px;
+    }
+    .doubl h2{
+display: none;
+    }
+    .doubl ul{
+        position: absolute;
+        left: 0;
+        top: 24px;
+    }
+    .oop{
+        display: none;
+    }
+
+    .gi{
+        width: 100%;
+        height: 100vh;
+        background-color:black;
+        position: absolute;
+        left:0;
+        top:0;
+        padding:0 25px;
+        right: 20px;
+    }
+    
+    .gi ul{
+        position: absolute;
+        left: 2px;
+        padding-bottom: 100px;
+    }
+    .gi ul li{
+        color:rgb(202, 201, 201);
+        font-size: 16px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .hard{
+        width: 100%;
+        height: 100vh;
+        background-color:black;
+        position: absolute;
+        left:0;
+        top:0;
+        padding:0 25px;
+    }
+    
+    .hard ul{
+        position: absolute;
+        left: 2px;
+        padding-bottom: 100px;
+    }
+    .hard ul li{
+        color:rgb(182, 182, 182);
+        font-size: 16px;
+        width: 90%;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .life{
+        width: 100%;
+        height: 100vh;
+        background-color:black;
+        position: absolute;
+        left:0;
+        top:0;
+        padding:0 25px;
+    }
+    
+    .life ul{
+        position: absolute;
+        left: 2px;
+        padding-bottom: 100px;
+    }
+    .life ul li{
+        color:rgb(187, 187, 187);
+        font-size: 16px;
+        width: 90%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .theque{
+        width: 100%;
+        height: 100vh;
+        background-color:black;
+        position: absolute;
+        left:0;
+        top:0;
+        padding:0 25px;
+    }
+    
+    .theque ul{
+        position: absolute;
+        left: 2px;
+        padding-bottom: 100px;
+    }
+    .theque ul li{
+        color:rgb(170, 170, 170);
+        font-size: 16px;
+    }
+
+    
+    .hamburger{
+        width: 28px;
+        height: 28px;
+        cursor:pointer;
+        border: none;
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color:white ;
+        top: 17px;
+        right: 5px;
+    }
+    .hamburger span{
+        display: block;
+        width:100%;
+        height: 3px;
+        background:#3d3c3c;
+        position: absolute;
+        pointer-events: none;
+        transition: opacity 0.63s ease-out;
+        cursor: pointer;
+    }
+    .hamburger span:nth-child(1),
+    .hamburger span:nth-child(3){
+        transition: transform 0.63s ease-out;
+    }
+    
+    .hamburger span:nth-child(1){
+        transform: translateY(7px);
+    }
+    .hamburger span:nth-child(3){
+transform: translateY(-7px);
+    }
+    .hamburger.open span:nth-child(1){
+        transform: translate(0) rotate(135deg);
+
+    }
+    .hamburger.open span:nth-child(2){
+        opacity: 0;
+        transition: opacity .33s ease-out;
+    }
+    .hamburger.open span:nth-child(3){
+        transform: translate(0) rotate(-135deg);
+    }
+
+
+
+
+
+    #cookie_banner{
+        position:fixed;
+        width: 97%;
+        background-color: white;
+        padding: 25px;
+        border: 2px solid gray;
+        border-radius: 20px;
+        margin: 4px;
+        right: 5px;
+        transform: translate(0,0);
+        left: 0;
+        animation: omo;
+        animation-duration: 2s;
+        transition: .33s linear;
+        top:    24%;
+        display: none;
+    }
+    @keyframes omo {
+        0%{
+            left: -100%;
+        }
+        100%{
+            left: 0;
+        }
+    }
+    #message{
+        display: inline-block;
+        margin-right: 0;
+        text-align: justify;
+        padding: 0 5px;
+        text-shadow: 1px  black;
+        font-size: 16px;
+    }
+    #bouttons{
+        display: flex;
+    }
+    
+    #bouttons button{
+        margin-top: 30px;
+        margin-left: 20px;
+        padding: 4px;
+        font-size: 20px;
+       border-radius:10px ;
+    }
+    .animation span{
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+

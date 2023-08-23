@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.hamburger{
+    display: none;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
+   padding: 10px 15px;
+   position: fixed;
+   z-index: 1;
+   background-color: white;
+   border-bottom: 1px solid green;
+}
+.container{
+    display: flex;
+}
+.container img{
+    width: 70px;
+    height: 70px;
+}
+.container h1{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.container h1 strong{
+    color: rgb(9, 196, 9);
+}
+.container h1 span{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+}
+.contenu ul {
+    display: flex;
+    margin-top: 25px;
+}
+.contenu ul li{
+    margin: 0 25px;
+   padding-bottom: 20px;
+   opacity: 0.8;
+}
+.contenu ul li:hover{
+    border-bottom: 4px solid rgb(8, 201, 8);
+   
+}
+.contenu ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #414141;
+}
+.contenu ul li a:hover{
+    color: rgb(21, 192, 21);
+   
+}
+.hour{
+    display: flex;
+    margin-top: 30px;
+}
+.hour hr{
+    padding: 5px;
+    width: 100%;
+}
+.w1{
+    background-color: blue;
+    border: 2px solid blue;
+}
+.w2{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.w3{
+    background-color: red;
+    border: 2px solid red;
+}
+.fils{
+    display: flex;
+    margin-top: 0;
+}
+.update p{
+    margin-left: 20px;
+    margin-top: -10px;
+    color: rgb(161, 160, 160);
+}
+.update span{
+    color: rgb(146, 146, 146);
+    margin-left: 20px;
+    display: block;
+    margin-top: 10px;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+.update p a{
+    color: #368dff;
+}
+.update {
+    color: white;
+}
+.fils strong{
+    font-size: 20px;
+    font-weight:400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fils span{
+    margin-left: 5px;
+    margin-top: 15px;
+    color:#c7c5c5;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.fils img{
+    width: 60px;
+    height: 60px;
+}
+.jesus{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:black;
+    padding: 70px 120px;
+}
+.pere h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.pere span{
+    color: rgb(155, 155, 155);
+    margin: 10px 0;
+    font-weight: 300;
+}
+.pere hr{
+   background-color: green;
+ 
+    margin: 10px 0;
+}
+.pere p{
+    color: rgb(163, 163, 163);
+}
+.instal h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.instal span{
+    color: rgb(131, 131, 131);
+    margin: 10px 0;
+    cursor: pointer;
+    transition: .33s ease-out;
+    font-weight: 300;
+}
+.instal span:hover{
+    border-bottom: 1px solid white;
+}
+.instal span a{
+    color:rgb(131, 131, 131);
+    text-decoration: none;
+    transition: .33s ease-out;
+}
+.instal span a:hover{
+    color: white;
+}
+
+.instal hr{
+    border: 1px solid green;
+    margin: 5px 0;
+}
+.der{
+    background-color: #131010;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+}
+.der span{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+   
+}
+.der span a{
+    color: #368dff;
+}
+
+.delta{
+    margin-top: 90px;
+    background-image: url("../img/ecolieres\ a\ l\'universite.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.felix{
+    padding: 150px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.438);
+   
+}
+.felix h2{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+.felix p{
+    color: white;
+    font-size: 25px;
+    padding: 10px 100px;
+    line-height: 1.3em;
+}
+.gis{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.box_si{
+    padding: 10px 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid  whitesmoke;
+    margin: 0 2px;
+}
+.box_si {
+    color: gray;
+    font-size: 30px;
+}
+.box_si strong{
+    color: rgb(21, 216, 21);
+}
+.auto h2{
+    margin-left: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 30px;
+    color: rgb(42, 3, 78);
+}
+.abba{
+    display: flex;
+    text-align: center;
+    margin-left: 23%;
+
+}
+.abba img{
+    width: 200px;
+    height: 200px;
+}
+.complete{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.complete h2{
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+}
+.complete p{
+    line-height: 1.3em;
+    font-size: 22px;
+}
+.platef{
+    display:flex ;
+}
+.plate{
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 3px gray;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.plate h3{
+    font-size: 30px;
+    margin: 10px 0;
+    color: blue;
+}
+.plate p{
+    font-size: 23px;
+    line-height: 1.3em;
+}
+.plate span{
+   float: right;
+}
+.plate span a{
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+}
+.autoplay{
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 2px 3px 3px gray;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.autoplay h3{
+    font-size: 30px;
+    margin: 10px 0;
+    color: blue;
+}
+.autoplay p{
+    font-size: 23px;
+    line-height: 1.3em;
+}
+.autoplay span{
+    float: right;
+    margin-top: 30px;
+}
+.autoplay span a{
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 23px;
+}
+.link h2{
+    margin-left: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 30px;
+    color: rgb(42, 3, 78); 
+}
+.contenu ul li a i{
+    display: none;
+}
+
+
+
+
+
+@media(max-width:900px){
+    nav{
+       overflow: visible;
+       padding: 6px 5px;
+    }
+    .container h1{
+        font-size: 19px;
+        font-weight: 300;
+    }
+    .container img{
+        width: 50px;
+        height: 50px;
+        margin-top: 6px;
+    }
+    .contenu {
+        position: absolute;
+        width: 70%;
+        height: 100vh;
+       right: 0;
+       background-color: black;
+       top: 100%;
+       max-height: 0;
+       transition: max-height .66s linear;
+    }
+    .contenu.open{
+        max-height: 1000px;
+    }
+    .contenu ul{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .contenu ul li{
+        border-bottom: 1px solid gray;
+        margin: 5px 0;
+        padding: 10px 0;
+    }
+    .contenu ul li:hover{
+        border-bottom: none;
+    }
+    .contenu ul li a{
+        color: rgb(219, 219, 219);
+        font-size: 16px;
+        padding: 0 0;
+        font-weight: 400;
+    }
+    .contenu ul li {
+        width: 90%;
+        justify-content: space-between;
+    }
+    .contenu ul li a{
+        display: flex;
+        /* width: 90%; */
+        justify-content: space-between;
+    }
+    .contenu ul li a i{
+        display: flex;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .hamburger{
+    width: 28px;
+    height: 28px;
+    cursor:pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color:white ;
+    top: 16px;
+    right: 5px;
+}
+.hamburger span{
+    display: block;
+    width:100%;
+    height: 3px;
+    background:#414141;
+    position: absolute;
+    pointer-events: none;
+    transition: opacity 0.3s 0.15s ease-out;
+    cursor: pointer;
+}
+.hamburger span:nth-child(1),
+.hamburger span:nth-child(3){
+    transition: transform 0.3s ease-out;
+}
+
+.hamburger span:nth-child(1){
+    transform: translateY(7px);
+}
+.hamburger span:nth-child(3){
+transform: translateY(-7px);
+}
+.hamburger.open span:nth-child(1){
+    transform: translate(0) rotate(135deg);
+
+}
+.hamburger.open span:nth-child(2){
+    opacity: 0;
+    transition: opacity
+    0s ease out;
+}
+.hamburger.open span:nth-child(3){
+ transform: translate(0) rotate(-135deg);
+}
+.jesus{
+    display: block;
+    text-align: justify;
+    padding: 20px 10px;
+}
+.fils{
+    margin-top: 0;
+    padding: 20px 0;
+    height: 100%;
+    overflow: hidden;
+}
+.fils img{
+    margin-left: 10px;
+}
+.fils span{
+    position: relative;
+    right: 15px;
+}
+.update span{
+    margin-left: 25px;
+}
+.update p{
+    margin-top: -10px;
+   margin-left: 25px;
+}
+.pere hr{
+    width: 60%;
+    margin: 10px 1px;
+}
+.instal hr{
+width: 60%;
+margin: 10px 1px;
+}
+.pere{
+    margin-left: 30px;
+}
+.instal{
+    margin-left: 30px;
+}
+.der{
+    display: block;
+}
+.der span{
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+.delta{
+    margin-top: 80px;
+}
+.felix{
+    padding: 30px;
+}
+.felix h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.felix p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 2px;
+}
+
+.gis{
+    display: block;
+}
+.box_si{
+    display: block;
+    width: 90%;
+    margin-left: 6%;
+    margin: 0 6%;
+    border: 2px solid gray;
+    /* border-radius: 0; */
+    border-top: 1px solid white;
+    border-bottom: 1px solid gray;
+   box-shadow: 2px 3px 2px rgb(218, 218, 218);
+   font-size: 19px;
+}
+.box_si :nth-child(2){
+ position: absolute;
+}
+.abba{
+    display: block;
+    margin-left: 0;
+}
+.abba img{
+    width: 100px;
+    height: 100px;
+}
+.complete{
+    margin-top: 0;
+}
+.complete p{
+    font-size: 24px;
+}
+.auto h2{
+    font-size: 24px;
+}
+.platef{
+    display: block;
+    margin: 0;
+}
+.platef h3{
+    font-size: 20px;
+}
+.platef p{
+    font-size: 17px;
+}
+.link{
+    display: block;
+    margin: 0;
+}
+.link h2{
+    font-size: 24px;
+}
+.plate h3{
+    font-size: 20px;
+}
+.plate p{
+    font-size: 18px;
+}
+.autoplay h3{
+    font-size: 23px;
+}
+.autoplay p{
+    font-size: 18px;
+}
+
+}

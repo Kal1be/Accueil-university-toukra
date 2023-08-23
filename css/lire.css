@@ -1,0 +1,414 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    box-sizing: border-box;
+}
+
+.hamburger{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+    position:fixed;
+    top:0;
+    
+}
+.container{
+    display: flex;
+}
+.container img{
+    width: 80px;
+    height: 80px;
+}
+.container h1{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.container h1 strong{
+    color: rgb(13, 116, 13);
+}
+.container h1 span {
+    display: block;
+    color: #141414;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.contenu ul{
+    display: flex;
+    margin-top: 34px;
+}
+.contenu ul li{
+    margin: 0 20px;
+    list-style: none;
+    padding-bottom: 20px;
+}
+.contenu ul li:hover{
+    border-bottom:6px solid rgb(3, 211, 3);
+}
+.contenu ul li a:hover{
+    color: rgb(3, 223, 3);
+}
+.contenu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #6d6969;
+    font-weight: 600;
+    
+}
+.casimir img{
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 130px;
+}
+.casimir{
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    color:#6d6969;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
+}
+.bian{
+    text-align: center;
+}
+.bian img{
+    width: 90%;
+    height: 80vh;
+    border-radius: 17px;
+
+}
+.bian p{
+    font-family:'Times New Roman', Times, serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -10px;
+    background-color:white;
+    border: 1px solid azure;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.3em;
+    padding: 20px 40px;
+    margin: 5px 10px;
+
+}
+.hour{
+    display: flex;
+    margin-top: 30px;
+}
+.hour hr{
+    padding: 5px;
+    width: 100%;
+}
+.w1{
+    background-color: blue;
+    border: 2px solid blue;
+}
+.w2{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.w3{
+    background-color: red;
+    border: 2px solid red;
+}
+.fils{
+    display: flex;
+    margin-top: 0;
+}
+.update p{
+    margin-left: 20px;
+    margin-top: -20px;
+    color: rgb(161, 160, 160);
+}
+.update span{
+    color: rgb(146, 146, 146);
+    margin-left: 20px;
+    display: block;
+    margin-top: 10px;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+.update p a{
+    color: #368dff;
+}
+.update {
+    color: white;
+}
+.fils strong{
+    font-size: 20px;
+    font-weight:400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fils span{
+    margin-left: 5px;
+    margin-top: 15px;
+    color:#c7c5c5;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.fils img{
+    width: 60px;
+    height: 60px;
+}
+.jesus{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:black;
+    padding: 70px 120px;
+}
+.pere h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.pere span{
+    color: rgb(155, 155, 155);
+    margin: 10px 0;
+    font-weight: 300;
+}
+.pere hr{
+   background-color: green;
+ 
+    margin: 10px 0;
+}
+.pere p{
+    color: rgb(163, 163, 163);
+}
+.instal h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.instal span{
+    color: rgb(131, 131, 131);
+    margin: 10px 0;
+    cursor: pointer;
+    transition: .33s ease-out;
+    font-weight: 300;
+}
+.instal span:hover{
+    border-bottom: 1px solid white;
+}
+.instal span a{
+    color:rgb(131, 131, 131);
+    text-decoration: none;
+    transition: .33s ease-out;
+}
+.instal span a:hover{
+    color: white;
+}
+
+.instal hr{
+    border: 1px solid green;
+    margin: 5px 0;
+}
+.der{
+    background-color: #131010;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+}
+.der span{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+   
+}
+.der span a{
+    color: #368dff;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+    *{
+        box-sizing: border-box;
+       
+    }
+    body{
+        box-sizing: border-box;
+       background-color: whitesmoke;
+    }
+    .casimir {
+        margin: 10px 0;
+    }
+    .casimir img{
+    width: 120px;
+    height: 120px;
+    }
+    .bian img{
+        height: 40vh;
+        width: 90%;
+    }
+    .bian p{
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+    .jesus{
+        display: block;
+        text-align: justify;
+        padding: 20px 10px;
+    }
+    .fils{
+        margin-top: 0;
+        padding: 20px 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    .fils img{
+        margin-left: 10px;
+    }
+    .fils span{
+        position: relative;
+        right: 15px;
+    }
+    .update span{
+        margin-left: 25px;
+    }
+    .update p{
+        margin-top: -10px;
+       margin-left: 25px;
+    }
+    .pere hr{
+        width: 60%;
+        margin: 10px 1px;
+    }
+    .instal hr{
+width: 60%;
+margin: 10px 1px;
+    }
+    .pere{
+        margin-left: 30px;
+    }
+    .instal{
+        margin-left: 30px;
+    }
+    .der{
+        display: block;
+    }
+    .der span{
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 1.3em;
+        font-weight: 400;
+    }
+    
+    nav{
+        padding: 7px 5px;
+        border-bottom: 2px solid rgb(2, 187, 2);
+    }
+    .container h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .container img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .contenu {
+        position: absolute;
+        right: 0;
+        top: 67px;
+        background-color:black;
+        width: 80%;
+        height: 100vh;
+        padding: 0 40px;
+        transform: translate(100%);
+        transition: .44s ease-in-out;
+    }
+    .contenu.open{
+        transform: translate(0);
+    }
+    .contenu ul{
+       flex-direction: column;
+       margin-right: 40px;
+       
+    }
+    .contenu ul li{
+        margin: 3px 0;
+        color: rgb(226, 223, 223);
+        padding-bottom: none;
+        border-bottom: 1px solid gray;
+    }
+    .contenu ul li:hover{
+        width: 45%;
+        border: none;
+    }
+    .contenu ul li a{
+        font-size: 17px;
+        color: rgb(226, 223, 223);
+    }
+    
+    .hamburger{
+        width: 28px;
+        height: 28px;
+        cursor:pointer;
+        border: none;
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color:white ;
+        top: 14px;
+        right: 5px;
+    
+    }
+    .hamburger span{
+        display: block;
+        width:100%;
+        height: 4px;
+        background:black;
+        position: absolute;
+        pointer-events: none;
+        transition: opacity 0.3s 0.15s ease-out;
+        cursor: pointer;
+    }
+    .hamburger span:nth-child(1),
+    .hamburger span:nth-child(3){
+        transition: transform 0.3s ease-out;
+    }
+    
+    .hamburger span:nth-child(1){
+        transform: translateY(7px);
+    }
+    .hamburger span:nth-child(3){
+transform: translateY(-7px);
+    }
+    .hamburger.open span:nth-child(1){
+        transform: translate(0) rotate(135deg);
+
+    }
+    .hamburger.open span:nth-child(2){
+        opacity: 0;
+        transition: opacity
+        0s ease out;
+    }
+    .hamburger.open span:nth-child(3){
+        transform: translate(0) rotate(-135deg);
+    }
+}

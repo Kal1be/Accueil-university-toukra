@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hamburger{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.container{
+    display: flex;
+}
+.container img{
+    width: 70px;
+    height: 70px;
+}
+.container h2{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.container h2 strong{
+    color: rgb(3, 204, 3);
+}
+.container h2 span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+}
+.contenu ul{
+    display: flex;
+    margin-top: 24px;
+}
+.contenu ul li{
+   list-style: none;
+   margin: 10px 20px;
+   transition: .33s linear;
+  
+}
+
+.contenu ul li:hover
+.gisi{
+    display: block;
+   border-bottom: 2px solid rgb(3, 172, 3);
+}
+.gisi h2{
+    color: rgb(3, 170, 3);
+}
+.gisi i{
+    display: none;
+}
+.contenu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #414141;
+    font-weight: 500;
+}
+.contenu ul li a:hover{
+    color: rgb(3, 177, 3);
+    padding: 20px 0;
+}
+.gisi{
+    display: none;
+}
+.gis{
+    display: flex;
+    position: absolute;
+    top: 100%;
+    right: 150px;
+    background-color: azure;
+    padding: 30px;
+    
+}
+.gis ul {
+flex-direction: column;
+margin-right: 40px;
+}
+.gisi ul li:hover{
+    border: none;
+    color: rgb(3, 172, 3);
+}
+.gisi ul li a:hover{
+    padding: 0;
+}
+.col{
+    padding: 20px 50px;
+    
+}
+.col h3{
+    padding: 10px 0;
+    color: blue;
+    font-weight: bold;
+}
+.gi{
+    position: absolute;
+    top: 100%;
+    background-color: azure;
+    padding: 10px 20px;
+  right: 320px;
+}
+.gi ul{
+    flex-direction: column;
+    right: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.section div{
+    margin: 20px 20px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.service{
+    background-color:rgb(12, 9, 36);
+    padding: 30px 30px;
+    color: white;
+    width: 70%;
+    border-radius: 10px;
+}
+.service p{
+    padding: 20px 0;
+}
+.form h3{
+background-color: rgba(144, 185, 172, 0.938);
+padding: 10px 10px;
+text-align: center;
+}
+.form p{
+    padding: 10px 10px;
+    line-height: 1.7em;
+}
+.form button{
+    text-align: center;
+    margin-left: 80px;
+    padding: 7px 10px;
+    margin: 10px 90px;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.form button a{
+    text-decoration: none;
+    color: white;
+   
+}
+.formu h3{
+background-color:rgba(201, 174, 174, 0.849);
+padding: 10px 10px;
+text-align: center;
+}
+.formu p{
+    padding: 10px 10px;
+    line-height: 1.7em;
+}
+.formu button{
+    text-align: center;
+    margin-left: 80px;
+    padding: 7px 10px;
+    margin: 10px 90px;
+    background-color: brown;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+.formu button a{
+    text-decoration: none;
+    color: white;
+}
+.service button{
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.service button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.hour{
+    display: flex;
+    margin-top: 30px;
+}
+.hour hr{
+    padding: 5px;
+    width: 100%;
+}
+.w1{
+    background-color: blue;
+    border: 2px solid blue;
+}
+.w2{
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+.w3{
+    background-color: red;
+    border: 2px solid red;
+}
+.fils{
+    display: flex;
+    margin-top: -10px;
+}
+.update p{
+    margin-left: 20px;
+    margin-top: -20px;
+    color: rgb(161, 160, 160);
+}
+.update span{
+    color: rgb(146, 146, 146);
+    margin-left: 20px;
+    display: block;
+    margin-top: 10px;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+.update p a{
+    color: #368dff;
+}
+.update {
+    color: white;
+}
+.fils strong{
+    font-size: 20px;
+    font-weight:400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fils span{
+    margin-left: 5px;
+    margin-top: 15px;
+    color:#c7c5c5;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.fils img{
+    width: 60px;
+    height: 60px;
+}
+.jesus{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:black;
+    padding: 70px 120px;
+}
+.pere h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.pere span{
+    color: rgb(155, 155, 155);
+    margin: 10px 0;
+    font-weight: 300;
+}
+.pere hr{
+   background-color: green;
+ 
+    margin: 10px 0;
+}
+.pere p{
+    color: rgb(163, 163, 163);
+}
+.instal h3{
+    color: white;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.instal span{
+    color: rgb(131, 131, 131);
+    margin: 10px 0;
+    cursor: pointer;
+    transition: .33s ease-out;
+    font-weight: 300;
+}
+.instal span:hover{
+    border-bottom: 1px solid white;
+}
+.instal span a{
+    color:rgb(131, 131, 131);
+    text-decoration: none;
+    transition: .33s ease-out;
+}
+.instal span a:hover{
+    color: white;
+}
+
+.instal hr{
+    border: 1px solid green;
+    margin: 5px 0;
+}
+.der{
+    background-color: #131010;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 100%;
+    display: flex;
+}
+.der span{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+   
+}
+.der span a{
+    color: #368dff;
+}
+
+.btn{
+    position: fixed;
+}
+#sins{
+    visibility: hidden;
+    display: none;
+}
+.fa-solid{
+    visibility: hidden;
+    display: none;
+}
+
+
+@media(max-width:850px){
+    .jesus{
+        display: block;
+        text-align: justify;
+        padding: 20px 10px;
+    }
+    .fils{
+        margin-top: 0;
+        padding: 20px 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    .fils img{
+        margin-left: 10px;
+    }
+    .fils span{
+        position: relative;
+        right: 15px;
+    }
+    .update span{
+        margin-left: 25px;
+    }
+    .update p{
+        margin-top: -10px;
+       margin-left: 25px;
+    }
+    .pere hr{
+        width: 60%;
+        margin: 10px 1px;
+    }
+    .instal hr{
+width: 60%;
+margin: 10px 1px;
+    }
+    .pere{
+        margin-left: 30px;
+    }
+    .instal{
+        margin-left: 30px;
+    }
+    .der{
+        display: block;
+    }
+    .der span{
+        display: block;
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 1.3em;
+        font-weight: 400;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x:hidden ;
+       
+    }
+    body{
+box-sizing: border-box;
+
+    }
+    nav{
+        padding: 12px 10px;
+        position: fixed;
+        overflow: visible;
+    }
+    .container img{
+    width: 60px;
+    height: 60px;
+    }
+    .container h2{
+        font-size: 24px;
+    }
+    .contenu{
+        position: absolute;
+       height: 100vh;
+       width: 80%;
+       right: 0;
+       top: 100%;
+       background-color: black;
+       transition: max-height .53s linear;
+       max-height: 0;
+    }
+    .contenu.open{
+        max-height: 1000px;
+    }
+    .contenu ul{
+flex-direction: column;
+position: absolute;
+right: 30%;
+
+    }
+    .contenu ul li a{
+        font-size: 24px;
+    }
+    
+    .col{
+        margin: 0 10px;
+        padding: 0;
+    }
+    .col h3{
+        padding: 10px 0;
+        color: blue;
+    }
+    section{
+        margin-top: 70px;
+        display: block;
+        /* margin-left: 0;
+        margin-right: 0; */
+    }
+    .section{
+        display: block;
+        position: relative;
+      right: 20px;
+      width: 100%;
+      padding: 0 20px;
+    }
+    .section div{
+        width: 100%;
+       
+    }
+    .service{
+        width: 100%;}
+
+    .form h3{
+        padding: 10px 30px;
+    }
+    .formu h3{
+        padding: 10px 30px;
+    }
+
+    .hamburger{
+        width: 28px;
+        height: 34px;
+        cursor:pointer;
+        border: none;
+        display: flex;
+        align-items: center;
+        position: relative;
+        background-color:white ;
+        top: 23px;
+        right: 5px;
+        
+    }
+    .hamburger span{
+        display: block;
+        width:100%;
+        height: 4px;
+        background:#414141;
+        position: absolute;
+        pointer-events: none;
+        transition: opacity 0.3s 0.15s ease-out;
+        cursor: pointer;
+    }
+    .hamburger span:nth-child(1),
+    .hamburger span:nth-child(3){
+        transition: transform 0.3s ease-out;
+    }
+    
+    .hamburger span:nth-child(1){
+        transform: translateY(7px);
+    }
+    .hamburger span:nth-child(3){
+transform: translateY(-7px);
+    }
+    .hamburger.open span:nth-child(1){
+        transform: translate(0) rotate(135deg);
+
+    }
+    .hamburger.open span:nth-child(2){
+        opacity: 0;
+        transition: opacity
+        0s ease out;
+    }
+    .hamburger.open span:nth-child(3){
+        transform: translate(0) rotate(-135deg);
+    }
+
+
+}
