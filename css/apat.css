@@ -1757,7 +1757,8 @@ font-size: 25px;
         margin-top: 0;
     }
     .voisine span{
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: 600;
     }
     .voisin img{
         width: 57%;
@@ -2343,7 +2344,7 @@ display: none;
         align-items: center;
         position: relative;
         background-color:white ;
-        top: 19px;
+        top: 17px;
         right: 7px;
     }
     .hamburger span{
