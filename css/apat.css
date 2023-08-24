@@ -130,6 +130,7 @@ body{
     /* box-sizing: border-box; */
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
+    
 }
 .container{
     display: flex;
@@ -553,8 +554,7 @@ display: block;
 }
 @keyframes felix {
          0%{background-image: url("../img/bibliotheques.jpeg")}
-         25%{ background-image: url("../img/universite\ roy\ faycale.jpg")}
-        50%{background-image: url("../img/universitaire.jpg")}
+        50%{ background-image: url("../img/universite\ roy\ faycale.jpg")}
        100%{background-image: url("../img/campus.jpg")}
 }
 .all {
@@ -1710,17 +1710,18 @@ font-size: 25px;
         height: 100px;
     }
     .togui span{
-     font-size: 16px;
-     padding: 0 0;
-     /* margin: 0 18%; */
-     font-weight: 300;
-     transform: translate(-50%,-50%);
-     position: absolute;
-     left: 12%;
+    font-size: 17px;
+    font-weight: 300;
+   text-align: center;
+   display: block;
+   position:relative;
+   right: 20%;
+   
     }
     .sur{
         display: block;
         margin-left: 30px;
+        margin-top: -20px;
     }
     .sur h3{
         font-size: 20px;
@@ -1733,6 +1734,10 @@ font-size: 25px;
         text-align: center;
         position: relative;
         margin: 16px 0; */
+    }
+    .sur button{
+        padding: 8px 8px;
+        border-radius: 4px;
     }
     .tout{
         display: block;
@@ -1752,19 +1757,22 @@ font-size: 25px;
         font-size: 23px;
         font-weight: 800;
     }
+    .anse hr{
+        margin-top:14px;
+    }
     .voisine{
         display: block;
         margin-top: 0;
     }
     .voisine span{
-        font-size: 14px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight:400;
     }
     .voisin img{
-        width: 57%;
+        width: 70%;
     }
     .ephraim img{
-        width: 56%;
+        width: 90%;
        
     }
     .tata img{
@@ -1772,7 +1780,8 @@ font-size: 25px;
        
     }
     .laureat img{
-        width: 100%;
+        width: 70%;
+        border: 1px solid gray;
     }
     .yan{
         margin-top: -5px;
@@ -1837,7 +1846,7 @@ overflow: hidden;
         border-radius: 5px;
     }
     .class {
-        height: 100%;
+        height: 340px;
         /* overflow: hidden; */
        padding: 15px 0;
     }
