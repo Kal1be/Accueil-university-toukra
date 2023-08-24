@@ -347,6 +347,9 @@ text-align: center;
     visibility: hidden;
     display: none;
 }
+.contenu ul li a i{
+    display: none;
+}
 
 
 @media(max-width:850px){
@@ -412,21 +415,24 @@ box-sizing: border-box;
 
     }
     nav{
-        padding: 12px 10px;
+        padding: 8px 8px;
         position: fixed;
         overflow: visible;
     }
     .container img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     }
     .container h2{
-        font-size: 24px;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-left: 2px;
     }
     .contenu{
         position: absolute;
        height: 100vh;
-       width: 80%;
+       width: 90%;
        right: 0;
        top: 100%;
        background-color: black;
@@ -436,15 +442,39 @@ box-sizing: border-box;
     .contenu.open{
         max-height: 1000px;
     }
+    .contenu ul li{
+        border-bottom: 1px solid gray;
+        padding: 10px 0;
+        margin: 10px 0;
+        width: 100%;
+    }
     .contenu ul{
 flex-direction: column;
 position: absolute;
-right: 30%;
+left: 30px;
 
     }
     .contenu ul li a{
-        font-size: 24px;
+        font-size: 19px;
+        color: #c7c5c5;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
+    .contenu ul li:hover{
+        border-bottom: none;
+    }
+    .contenu ul li a:hover{
+        border-bottom: none;
+    }
+
+    .contenu ul li a i{
+        display: flex;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+
     
     .col{
         margin: 0 10px;
@@ -482,22 +512,22 @@ right: 30%;
     }
 
     .hamburger{
-        width: 28px;
-        height: 34px;
+        width: 26px;
+        height: 26px;
         cursor:pointer;
         border: none;
         display: flex;
         align-items: center;
         position: relative;
         background-color:white ;
-        top: 23px;
+        top: 14px;
         right: 5px;
         
     }
     .hamburger span{
         display: block;
         width:100%;
-        height: 4px;
+        height: 3px;
         background:#414141;
         position: absolute;
         pointer-events: none;
