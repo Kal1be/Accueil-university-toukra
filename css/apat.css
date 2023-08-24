@@ -137,7 +137,7 @@ body{
     justify-content: space-between;
     width: 100%;
     padding: 20px 20px;
-    background-color:rgb(93, 93, 247);
+    background-color:green;
 }
 .span {
     color: aquamarine;
@@ -170,7 +170,7 @@ body{
     position: relative;
     background-color:aliceblue;
     padding: 15px 10px ;
-    color:rgb(93, 93, 247);
+    color:green;
     top: -15px;
     
 }
@@ -259,7 +259,7 @@ body{
     transition: .33s;
 }
 .contain h2 strong{
-    color: rgb(47, 47, 233);
+    color: green;
 }
 .contain h2 span{
     display: block;
@@ -291,17 +291,17 @@ transition: .33s linear;
 
 }
 .home{
-    color: rgb(93, 93, 247);
-   border-bottom: 8px solid rgb(93, 93, 247);
+    color: green;
+   border-bottom: 8px solid green;
   padding-bottom: 27px;
   margin: 0;
 }
 .home a{
-    color: rgb(93, 93, 247);
+    color: green;
 }
 .center ul li a:hover{
-   color: rgb(93, 93, 247);
-   border-bottom: 8px solid rgb(93, 93, 247);
+   color: green;
+   border-bottom: 8px solid green;
 }
 
 .center ul li:hover
@@ -356,7 +356,7 @@ transition: .33s linear;
     display: block;
 }
 .doubl h2{
-    color: rgb(93, 93, 247);
+    color: green;
     margin-top: -20px;
 }
 .doubl ul{
@@ -368,7 +368,7 @@ transition: .33s linear;
    
 }
 .doubl ul li:hover{
-    border-bottom: 1px solid rgb(93, 93, 247);
+    border-bottom: 1px solid green;
 }
 .doubl ul li a{
     font-size: 16px;
@@ -380,11 +380,11 @@ transition: .33s linear;
 
 .oop{
     display: block;
-    border-left: 2px solid rgb(93, 93, 247);
+    border-left: 2px solid green;
     padding: 0 20px;
 }
 .oop h2{
-    color: rgb(93, 93, 247);
+    color: green;
 }
 .oop ul{
     display: block;
@@ -395,7 +395,7 @@ transition: .33s linear;
    cursor: pointer;
 }
 .oop ul li:hover{
-    border-bottom: 1px solid rgb(93, 93, 247);
+    border-bottom: 1px solid green;
 }
 .tesla{
     display: block;
@@ -413,12 +413,12 @@ transition: .33s linear;
     font-weight: 300;
 }
 .tesla ul li a:hover{
-    color: rgb(93, 93, 247);
+    color: green;
     border: none;
 }
 .tesla h2{
    
-    color: rgb(93, 93, 247);
+    color: green;
     margin-top: 35px;
 }
 .model{
@@ -427,12 +427,12 @@ transition: .33s linear;
 }
 .model h2{
     text-align: center;
-    color: rgb(93, 93, 247);
+    color: green;
 }
 .model ul {
     display: block;
     margin-top: -10px;
-    border-left: 2px solid rgb(93, 93, 247);;
+    border-left: 2px solid green;
     padding: 30px;
 }
 .model ul li{
@@ -444,8 +444,8 @@ transition: .33s linear;
     font-family: 'Times New Roman', Times, serif;
 }
 .model ul li:hover{
-    border-bottom: 2px solid rgb(93, 93, 247);
-    color:rgb(93, 93, 247);
+    border-bottom: 2px solid green;
+    color:green;
 }
 .gi{
     display: block;
@@ -463,8 +463,8 @@ display: block;
     cursor: pointer;
 }
 .gi ul li:hover{
-    color: rgb(93, 93, 247);
-    border-bottom: 2px solid rgb(93, 93, 247);
+    color: green;
+    border-bottom: 2px solid green;
 }
 .hard{
     display: block;
@@ -482,8 +482,8 @@ display: block;
     margin: 15px 0;
 }
 .hard ul li:hover{
-    color: rgb(93, 93, 247);
-    border-bottom: 2px solid rgb(93, 93, 247);
+    color: green;
+    border-bottom: 2px solid green;
 }
  
 
@@ -503,8 +503,8 @@ display: block;
     cursor: pointer;
 }
 .life ul li:hover{
-    color: rgb(93, 93, 247);
-    border-bottom: 2px solid rgb(93, 93, 247);
+    color: green;
+    border-bottom: 2px solid green;
 }
 .theque{
     display: block;
@@ -524,7 +524,7 @@ display: block;
 
 }
 .theque ul li:hover{
-    color: rgb(93, 93, 247);
+    color: green;
    border: none;
 
   margin: 0;
@@ -554,6 +554,7 @@ display: block;
 }
 @keyframes felix {
          0%{background-image: url("../img/bibliotheques.jpeg")}
+         50%{background-image: url("../img/universite\ roy\ faycale.jpg")}
        100%{background-image: url("../img/campus.jpg")}
 }
 .all {
@@ -564,7 +565,7 @@ display: block;
     display: inline-block;
     padding: 24px 15px;
     color: white;
-    background:rgb(76, 76, 255); 
+    background:rgba(9, 165, 9, 0.836); 
     margin-top: 20%;
     margin-left: 20px;
     width: 70%;
@@ -584,7 +585,7 @@ display: block;
     margin-bottom: 10%;
     font-size: 20px;
     padding: 10px;
-    border-left:6px solid rgb(76, 76, 255); 
+    border-left:6px solid green; 
     background-color: white;
     opacity: 0.8;
     border-radius: 5px;
@@ -592,7 +593,7 @@ display: block;
 .sol{
     width: 100%;
     height: 190px;
-    background-color: rgb(76, 76, 255);
+    background-color: rgb(118, 255, 118);
 }
 .panpa{
     display: flex;
@@ -604,7 +605,7 @@ display: block;
 
 .ter{
     font-size: 32px ;
-    color: blue;
+    color: green;
     font-weight: bold;
 }
 .ter img{
@@ -617,7 +618,7 @@ display: block;
 }
 .walt{
     font-size: 32px ;
-    color: blue;
+    color: green;
     font-weight: bold;
 }
 .walt img{
@@ -631,7 +632,7 @@ display: block;
 .west{
     font-size: 32px;
     font-weight: bold;
-    color: blue;
+    color: green;
 }
 .west img{
     width: 130px;
@@ -664,7 +665,7 @@ display: block;
     text-align: center;
 }
 .sala h3{
-    color: rgb(76, 76, 255);
+    color: green;
     font-size: 27px;
     font-weight: bold;
     text-align: center;
@@ -684,7 +685,7 @@ display: block;
     padding: 0 30px;
 }
 .sala button{
-    background-color:rgb(34, 34, 252);
+    background-color:green;
     padding: 10px 10px;
     float: right;
     margin-top: -20px;
@@ -718,7 +719,7 @@ display: block;
     padding: 30px;
 }
 .pap h1{
-    color: blue;
+    color: green;
     padding: 26px 0 0 0;
     text-align: center;
     text-decoration: underline;
@@ -817,7 +818,7 @@ display: block;
 }
 .pap button{
     color:white;
-    background:rgb(89, 89, 253);
+    background:green;
     padding: 12px 8px;
     border-radius: 5px;
     margin: 18px;
@@ -838,7 +839,7 @@ display: block;
     margin: 30px;
 }
 .reel h1 strong{
-    color: blue;
+    color: rgb(7, 168, 7);
     font-weight: 600;
     font-size: 28px;
 }
@@ -896,20 +897,20 @@ display: block;
 }
 .doc{
     padding: 8px 6px;
-    background-color: rgb(76, 76, 255);
+    background-color: green;
     color: white;
     border-radius: 4px;
     margin-left: 70%;
     font-size: 20px;
     margin-top: 32px;
-    border: 2px solid rgb(76, 76, 255);
+    border: 2px solid green;
     border-radius: 5px;
 }
 .togui a{
     text-decoration: none;
     list-style: none;
     color: white;
-    background-color:rgb(76, 76, 255);
+    background-color:green;
 }
 .togui img{
 width: 120px;
@@ -1207,8 +1208,8 @@ font-family: sans-serif;
    font-weight: 600;
 }
 .if div span:hover{
-    color: rgb(76, 76, 255);
-    border-bottom: 2px solid rgb(76, 76, 255);
+    color: green;
+    border-bottom: 2px solid green;
 }
 .if h3{
     text-align: center;
@@ -1364,7 +1365,7 @@ font-weight: 700;
     top: 20px;
     bottom: 20px;
     padding: 10px 10px;
-    background-color: rgb(76, 76, 255);
+    background-color: green;
     border-radius: 5px;
 }
 .class button a{
@@ -1401,7 +1402,7 @@ font-weight: 700;
     top: 40px;
     font-size: 20px;
     padding: 10px;
-    background-color: rgb(76, 76, 255);
+    background-color: green;
     color: white;
 }
 .hour{
@@ -1514,7 +1515,7 @@ font-weight: 700;
 }
 
 .instal hr{
-    border: 1px solid rgb(76, 76, 255);
+    border: 1px solid green;
     margin: 5px 0;
 }
 .der{
@@ -1848,9 +1849,9 @@ overflow: hidden;
         border-radius: 5px;
     }
     .class {
-        height: 340px;
-        /* overflow: hidden; */
-       padding: 15px 0;
+        height:100%;
+        margin-bottom: 10px;
+        padding: 20px 0;
     }
     .class h2{
         font-size: 23px;
@@ -1868,6 +1869,9 @@ overflow: hidden;
     .corn{
         display: block;
     }
+    .corn h2{
+        font-size: 25px !important;
+    }
     .corn img{
         width: 95%;
        position: relative;
@@ -1879,7 +1883,8 @@ overflow: hidden;
     }
     .corn div p{
         text-align: justify;
-        padding: 0 10px;
+        padding: 0 20px;
+        font-size: 18px;
     }
     .jesus{
         display: block;
@@ -2039,7 +2044,7 @@ margin: 10px 1px;
         overflow: visible;
         padding: 8px 5px;
         border: 2px solid white;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid whitesmoke;
     }
     .obet.remove {
         padding:8px 5px;
