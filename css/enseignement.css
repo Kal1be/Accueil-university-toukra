@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar{
+    width: 0;
+}
 .hour{
     display: flex;
     margin-top: 30px;

@@ -6,6 +6,9 @@
     list-style: none;
     overflow-x: hidden;
  }
+ ::-webkit-scrollbar{
+    width: 0;
+}
  body{
     padding: 0;
     margin: 0;

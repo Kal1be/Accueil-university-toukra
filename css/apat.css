@@ -4,6 +4,8 @@
     padding: 0;
     /* overflow-x: hidden; */
 }
+::-webkit-scrollbar{
+    width: 0;}
 
 /* the part of animation before initialisation */
 
@@ -130,7 +132,6 @@ body{
     /* box-sizing: border-box; */
     overflow-x: hidden;
     background-color: rgb(255, 255, 255);
-    
 }
 .container{
     display: flex;
@@ -565,7 +566,7 @@ display: block;
     display: inline-block;
     padding: 24px 15px;
     color: white;
-    background:rgba(9, 165, 9, 0.836); 
+    background:rgba(45, 151, 45, 0.644); 
     margin-top: 20%;
     margin-left: 20px;
     width: 70%;
@@ -1554,6 +1555,9 @@ font-weight: 700;
 
 
 @media(max-width:900px){
+    ::-webkit-scrollbar{
+        width: 0;
+    }
     .sol{
         height: 150px;
     }
@@ -1566,15 +1570,15 @@ font-weight: 700;
     }
    
     .dot{
-        font-size: 15px;
+        font-size: 16px;
         width: 87%;
         font-weight: bold;
         margin-top: 26%;
         padding: 18px 10px;
-        text-shadow: 2px 2px 2px black;
+       
     }
     .dot strong{
-        font-size: 17px;
+        font-size: 18px;
     }
     .button{
         font-size: 15px;
