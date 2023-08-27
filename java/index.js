@@ -211,35 +211,40 @@ auteur:"- Jean Jacques Rousseau"
   }
   
 ];
-var btn=document.querySelector(".btn");
-
+var btn=document.querySelector(".btnquote");
 var appart =document.querySelector(".quote");
-
 var author=document.querySelector(".auteur");
 let papi = document.querySelector(".papi")
 
-const mesquotes = e =>{
-// setInterval(() => {
-//   papi.classList.add("deuxieme")
-// }, 1000);
-  let random = Math.floor(Math.random()*citation.length);
+const mesquotes = () =>{
+  papi.classList.add("decat");
+  setTimeout(() => {
+    papi.classList.remove("decat")
 
-  appart.innerText =citation[random].quote;
-  appart.style.transition="all 5s ease-in-out"
+
+    let random = Math.floor(Math.random()*citation.length);
+
+    appart.innerText =citation[random].quote;
+    appart.style.transition="all 5s ease-in-out"
+    
+    author.innerText=citation[random].auteur;
+    
+  },5000);
   
-  author.innerText=citation[random].auteur;
+   
+  
 
 };
 btn.addEventListener("click",mesquotes);
-setInterval(()=>{
-  let random = Math.floor(Math.random()*citation.length);
+// setInterval(()=>{
+//   let random = Math.floor(Math.random()*citation.length);
 
-  appart.innerText =citation[random].quote;
-  appart.style.transition="all 5s ease-in-out"
+//   appart.innerText =citation[random].quote;
+//   appart.style.transition="all 5s ease-in-out"
   
-  author.innerText=citation[random].auteur;
-  author.style.transition="all .55s ease-in-out"
-},8000);
+//   author.innerText=citation[random].auteur;
+//   author.style.transition="all .55s ease-in-out"
+// },8000);
 
 
 let rest = document.getElementById("res");
@@ -433,7 +438,10 @@ function setCookie(name,value,days) {
   let dons = document.getElementById("cookie_banner");
 setTimeout(() => {
   dons.style.display="block"
-}, 27000);
+}, 33000);
+
+const body =document.querySelector("body");
+body.style.right=body.clientWidth-body.offsetWidth + "px";
 
  
 

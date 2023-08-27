@@ -13,7 +13,7 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(215, 232, 248);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
     text-align: center;
     margin-left: 5px;
     background-color: white;
-    animation: loader 3s linear infinite;
+    animation: loader 2s linear infinite;
 }
 .animation span:nth-child(1){
     animation-delay: 0s;
@@ -37,27 +37,27 @@
     transition: .1s ease-in-out;
 }
 .animation span:nth-child(2){
-    animation-delay: 0.25s;
+    animation-delay: 0.2s;
     background-color: blue;
     transition: .1s ease-in-out;
 }
 .animation span:nth-child(3){
-    animation-delay: 0.50s;
+    animation-delay: 0.4s;
     background-color: yellow;
     transition: .1s ease-in-out;
 }
 .animation span:nth-child(4){
-    animation-delay: 0.75s;
+    animation-delay: 0.6s;
     background-color: yellow;
     transition: .1s ease-in-out;
 }
 .animation span:nth-child(5){
-    animation-delay: 1s;
+    animation-delay: .8s;
     background-color: red;
     transition: .1s ease-in-out;
 }
 .animation span:nth-child(6){
-    animation-delay: 1.25s;
+    animation-delay: 1s;
     background-color: red;
     transition: .1s ease-in-out;
 }
@@ -93,6 +93,7 @@
     display: none;
     line-height: 1.3em;
     font-size: 24px;
+    z-index: 5;
 }
 @keyframes omo {
     0%{
@@ -730,60 +731,62 @@ display: block;
 }
 .papi{
     position: absolute;
-    background-color: white;
-    width: 100%;
-    background-color: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    display: none;
-    text-align: center;
     align-items: center;
     justify-content: center;
-    z-index: 10;
-    
+    text-align: center;
+    display:flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:azure;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    visibility: hidden;
+}
+.papi.decat{
+    visibility: visible;
 }
 .papi span{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 50%;
-    animation: lore 2s linear infinite;
-    margin: 0;
+    margin: 0 1px ;
+    padding: 0 2px ;
+    font-size: 23px;
+    animation:lore 2s linear infinite;
 }
 .papi span:nth-child(1){
-    animation-delay: 0s;
-    background-color: blue;
+    animation-delay: 0.1s;
 }
 .papi span:nth-child(2){
-    animation-delay: 0.25s;
-    background-color: blue;
+    animation-delay: 0.2s;
 }
 .papi span:nth-child(3){
-    animation-delay: 0.50s;
-    background-color: yellow;
+    animation-delay: 0.3s; 
 }
 .papi span:nth-child(4){
-    animation-delay: 0.75s;
-    background-color: yellow;
+    animation-delay: 0.4s;
 }
 .papi span:nth-child(5){
+    animation-delay: 0.5s;
+}
+.papi span:nth-child(6){
+    animation-delay: 0.6s;
+}
+.papi span:nth-child(7){
+    animation-delay: 0.7s;
+}
+.papi span:nth-child(8){
+    animation-delay: 0.8s;
+}
+.papi span:nth-child(9){
+    animation-delay: 0.9s;
+}
+.papi span:nth-child(10){
     animation-delay: 1s;
-    background-color: red;
 }
-
 @keyframes lore {
-    0%,100%{
-        transform: scale(0);
-    }
-    50%{
-        transform: scale(1);
-    }
-}
-.deuxieme{
-    opacity: 0;
-    visibility: hidden;
-    display: hidden;
+    0%{color: red; text-shadow: 0 0 7px black;}
+    90%{color: rgb(252, 200, 200);}
+    100%{color: red;}
 }
 
 .pap p{
@@ -809,7 +812,7 @@ display: block;
     bottom: 5.6%;
     position: relative;
 }
-.pap span{
+.auteur{
     color: aquamarine;
     font-size: 22px;
     font-weight: bold;
@@ -820,7 +823,7 @@ display: block;
 .pap button{
     color:white;
     background:green;
-    padding: 12px 8px;
+    padding: 8px 8px;
     border-radius: 5px;
     margin: 18px;
     font-size: 20px;
@@ -1665,7 +1668,7 @@ font-weight: 700;
     .pap p{
         font-size: 19px;
     }
-    .pap span{
+    .auteur{
         font-size: 18px;
     }
     .pap button{
@@ -1718,7 +1721,7 @@ font-size: 25px;
     }
     .togui span{
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 600;
    text-align: center;
    display: block;
    position:relative;
@@ -2004,7 +2007,7 @@ margin: 10px 1px;
     #de{
         display:block;
         margin-left: 30%;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 7px;
     }
     #def{
@@ -2016,19 +2019,19 @@ margin: 10px 1px;
     #defe{
         display:block;
         margin-left: 55%;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 7px;
     }
     #defer{
         display:block;
         margin-left:48%;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 7px;
     }
     #kon{
         display:block;
         margin-left: 18%;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 7px;
     }
     
@@ -2039,7 +2042,7 @@ margin: 10px 1px;
     #ko{
         display: block;
         margin-left: 44%;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 7px;
     }
     .obet{
@@ -2129,7 +2132,7 @@ margin: 10px 1px;
         position: absolute;
         right: -3px;
         top: 100%;
-        width: 85%;
+        width: 83%;
         background-color:black;
         height: 100vh;
         max-height: 0;
@@ -2156,13 +2159,14 @@ margin: 10px 1px;
     .center ul li a{
         padding: 0;
         overflow: hidden;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         color: rgb(184, 183, 183);
         display: flex;
         width: 100%;
         justify-content: space-between;
     }
+   
     .center ul li:hover{
         border-bottom: none;
     }
@@ -2364,13 +2368,13 @@ display: none;
         align-items: center;
         position: relative;
         background-color:white ;
-        top: 17px;
+        top: 19px;
         right: 7px;
     }
     .hamburger span{
         display: block;
         width:100%;
-        height: 3px;
+        height: 2px;
         background:#3d3c3c;
         position: absolute;
         pointer-events: none;
