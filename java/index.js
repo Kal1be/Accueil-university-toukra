@@ -229,7 +229,7 @@ const mesquotes = () =>{
     
     author.innerText=citation[random].auteur;
     
-  },5000);
+  },8000);
   
    
   
