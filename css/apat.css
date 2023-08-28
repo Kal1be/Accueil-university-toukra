@@ -553,10 +553,12 @@ display: block;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: .8;
 }
 @keyframes felix {
          0%{background-image: url("../img/bibliotheques.jpeg")}
-         50%{background-image: url("../img/universite\ roy\ faycale.jpg")}
+         50%{background-image: url("../img/universite\ roy\ faycale.jpg");
+        }
        100%{background-image: url("../img/campus.jpg")}
 }
 .all {
@@ -2136,12 +2138,12 @@ margin: 10px 1px;
     .center{
         position: absolute;
         right: -3px;
-        top: 100%;
+        top: 105%;
         width: 83%;
         background-color:black;
         height: 100vh;
         max-height: 0;
-        transition: max-height 1s linear;
+        transition: max-height .53s linear;
     }
     .center.open{
         max-height: 1000px;
