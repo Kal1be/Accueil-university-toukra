@@ -1134,17 +1134,17 @@ font-family: sans-serif;
     font-size: 23px;
     font-weight: 500;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   text-align:center;
+   text-align:justify;
     margin-top: 2px;
-    margin-right: 0%;
+    margin-right: 20px;
     padding: 0 60px;
     line-height: 1.7em;
     justify-content: center;
-    margin-left: -10px;
+    margin-left: -20px;
     position: relative;
 }
 .alph h2{
-    color:rgb(233, 23, 23);
+    color:rgb(45, 45, 109);
     font-family: sans-serif;
     font-weight: bold;
     font-size: 37px;
@@ -1814,13 +1814,18 @@ font-size: 25px;
         overflow: hidden;
     }
     .alph h2{
-        font-size: 18px;
+        font-size: 22px;
+        margin: 10px 0 !important;
+        font-weight: bold;
     }
     .alph p{
         padding: 0 5px;
         text-align: justify;
-        font-size:18px !important;
+        font-size:20px !important;
         font-weight: 400;
+        font-family: sans-serif;
+        margin-left: 0;
+     
     }
     .casi{
         margin-left: 60px;
