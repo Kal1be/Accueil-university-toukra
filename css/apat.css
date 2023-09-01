@@ -743,7 +743,7 @@ display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color:rgb(39, 39, 39);
+    background-color:black;
     width: 100%;
     height: 100%;
     z-index: 2;
@@ -790,9 +790,14 @@ display: block;
     animation-delay: 1s;
 }
 @keyframes lore {
-    0%{color: yellow; text-shadow: 0 0 5px yellow;}
-    90%{color:rgb(44, 44, 44);}
-    100%{color: yellow;}
+    0%{color:rgb(255, 68, 68); text-shadow: 0 0 5px white;
+        margin-top:-2%;
+  }
+    90%{color:rgb(22, 22, 22);
+        margin-top:-1%;
+    }
+    100%{color: rgb(247, 53, 53);
+    margin-top: 0;}
 }
 .pap p{
     position: relative;
@@ -1866,19 +1871,22 @@ overflow: hidden;
         height:100%;
         margin-bottom: 10px;
         padding: 20px 0;
+        margin: 0 0;
     }
     .class h2{
         font-size: 23px;
     }
     .class p{
-        padding: 0 2px;
+        padding: 10px 20px;
         text-align: justify;
-        font-size: 21px;
-        line-height: 1.4em;
-        font-weight: 400;
+        font-size: 17px;
+        line-height: 1.3em;
+        font-weight: 500;
+        font-family: sans-serif;
     }
     .class button{
         padding: 6px 5px;
+        margin: 10px 0;
     }
     .corn{
         display: block;
@@ -1962,7 +1970,9 @@ margin: 10px 1px;
 
 @media(max-width:1100px){
     .papi span{
-        font-size: 23px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: sans-serif;
     }
     .box{
 
@@ -2141,16 +2151,17 @@ margin: 10px 1px;
     .center{
         position: absolute;
         right: -3px;
-        top: 100%;
+        top: 101%;
         width: 83%;
         background-color:black;
         height: 100vh;
+        transition:max-height .33s linear;
         max-height: 0;
-        transition: max-height .53s linear;
     }
     .center.open{
-        max-height: 1000px;
+        max-height:1000px;
     }
+   
     
     .center ul{
       flex-direction: column;
@@ -2388,7 +2399,7 @@ display: none;
         background:#3d3c3c;
         position: absolute;
         pointer-events: none;
-        transition: opacity 0.63s ease-out;
+        transition: opacity 0.33s ease-in;
         cursor: pointer;
     }
     .hamburger span:nth-child(1),
