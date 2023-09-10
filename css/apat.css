@@ -4,6 +4,26 @@
     padding: 0;
     /* overflow-x: hidden; */
 }
+.off{
+    background-color: black;
+   
+    padding: 20px 135px;
+}
+.off h2{
+    font-size: 28px;
+    margin: 10px 0;
+    color:rgb(27, 106, 255);
+}
+.off i{
+    font-size: 25px;
+    margin: 0 3px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.off i:hover,
+.off i:nth-child(4){
+    color:rgb(54, 124, 255);
+}
 ::-webkit-scrollbar{
     width: 0;}
 
@@ -13,7 +33,7 @@
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: rgb(243, 253, 243);
+    background-color: white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +47,7 @@
     height: 25px;
     border-radius: 50%;
     text-align: center;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     background-color: white;
     animation: loader 2s linear infinite;
 }
@@ -36,31 +56,31 @@
     background-color: rgb(72, 72, 255);
     transition: .1s ease-in-out;
 }
-.animation span:nth-child(2){
+/* .animation span:nth-child(2){
     animation-delay: 0.2s;
     background-color: rgb(72, 72, 255);
     transition: .1s ease-in-out;
-}
+} */
 .animation span:nth-child(3){
     animation-delay: 0.4s;
     background-color: yellow;
     transition: .1s ease-in-out;
 }
-.animation span:nth-child(4){
+/* .animation span:nth-child(4){
     animation-delay: 0.6s;
     background-color: yellow;
     transition: .1s ease-in-out;
-}
+} */
 .animation span:nth-child(5){
     animation-delay: .8s;
     background-color: rgb(245, 29, 29);
     transition: .1s ease-in-out;
 }
-.animation span:nth-child(6){
+/* .animation span:nth-child(6){
     animation-delay: 1s;
     background-color: rgb(245, 29, 29);
     transition: .1s ease-in-out;
-}
+} */
 @keyframes loader {
     0%,100%{
         transform: scale(0);
@@ -77,7 +97,7 @@
 #cookie_banner{
     position:fixed;
     width: 45%;
-    background-color: azure;
+    background-color: white;
     padding: 50px 10px;
     border: 2px solid gray;
     border-radius: 20px;
@@ -127,8 +147,6 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
     text-decoration: none;
     /* box-sizing: border-box; */
     overflow-x: hidden;
@@ -138,11 +156,11 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px 20px;
-    background-color:green;
+    padding: 15px 20px;
+    background-color:#67a9ff;
 }
 .span {
-    color: aquamarine;
+    color: rgb(238, 235, 235);
     margin-top: 10px;
     margin-left: 20px;
     position: relative;
@@ -170,16 +188,16 @@ body{
 }
  .aria{
     position: relative;
-    background-color:aliceblue;
+    background-color:rgb(240, 237, 237);
     padding: 15px 10px ;
-    color:green;
+    color:#1876f2;
     top: -15px;
     
 }
 .contenu ul li a{
     text-decoration: none;
-    font-size: 17px;
-    color:aquamarine;
+    font-size: 18px;
+    color:white;
 }
 .contenu ul li a i {
     display: none;
@@ -217,7 +235,7 @@ body{
     padding: -20px 5px;
     transition: .22s linear;
     .contain h2{
-        font-size: 38px;
+        font-size: 36px;
         transition: .22s linear;
     }
     .contain img{
@@ -226,7 +244,7 @@ body{
           transition: .22s;
     }
     .center ul li a{
-        font-size: 17px;
+        font-size: 18px;
         transition: .22s linear;
     }
     .center ul{
@@ -261,7 +279,7 @@ body{
     transition: .33s;
 }
 .contain h2 strong{
-    color: green;
+    color: #368dff;
 }
 .contain h2 span{
     display: block;
@@ -293,17 +311,17 @@ transition: .33s linear;
 
 }
 .home{
-    color: green;
-   border-bottom: 8px solid green;
+    color:#1876f2;
+   border-bottom: 8px solid #1876f2;
   padding-bottom: 27px;
   margin: 0;
 }
 .home a{
-    color: green;
+    color: #1876f2;
 }
 .center ul li a:hover{
-   color: green;
-   border-bottom: 8px solid green;
+   color: #1876f2;
+   border-bottom: 8px solid #1876f2;
 }
 
 .center ul li:hover
@@ -339,7 +357,7 @@ transition: .33s linear;
     position: absolute;
     top: 85px;
    right: 110px;
-   background-color:azure;
+   background-color:whitesmoke;
    padding: 30px 40px;
 }
 
@@ -350,7 +368,7 @@ transition: .33s linear;
     position: absolute;
     top: 85px;
    right: 110px;
-   background-color:azure;
+   background-color:whitesmoke;
    padding: 30px 40px;
    
 }
@@ -358,7 +376,7 @@ transition: .33s linear;
     display: block;
 }
 .doubl h2{
-    color: green;
+    color: #68aaff;
     margin-top: -20px;
 }
 .doubl ul{
@@ -370,7 +388,7 @@ transition: .33s linear;
    
 }
 .doubl ul li:hover{
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #74b0ff;
 }
 .doubl ul li a{
     font-size: 16px;
@@ -382,11 +400,11 @@ transition: .33s linear;
 
 .oop{
     display: block;
-    border-left: 2px solid green;
+    border-left: 2px solid #6dacff;
     padding: 0 20px;
 }
 .oop h2{
-    color: green;
+    color: #569fff;
 }
 .oop ul{
     display: block;
@@ -397,7 +415,7 @@ transition: .33s linear;
    cursor: pointer;
 }
 .oop ul li:hover{
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #1876f2;
 }
 .tesla{
     display: block;
@@ -415,12 +433,12 @@ transition: .33s linear;
     font-weight: 300;
 }
 .tesla ul li a:hover{
-    color: green;
+    color: #1876f2;
     border: none;
 }
 .tesla h2{
    
-    color: green;
+    color: #1876f2;
     margin-top: 35px;
 }
 .model{
@@ -429,12 +447,12 @@ transition: .33s linear;
 }
 .model h2{
     text-align: center;
-    color: green;
+    color: #1876f2;
 }
 .model ul {
     display: block;
     margin-top: -10px;
-    border-left: 2px solid green;
+    border-left: 2px solid #1876f2;
     padding: 30px;
 }
 .model ul li{
@@ -446,14 +464,14 @@ transition: .33s linear;
     font-family: 'Times New Roman', Times, serif;
 }
 .model ul li:hover{
-    border-bottom: 2px solid green;
-    color:green;
+    border-bottom: 2px solid #1876f2;
+    color:#1876f2;
 }
 .gi{
     display: block;
     position: absolute;
     top: 85px;
-    background-color: azure;
+    background-color: whitesmoke;
     padding:0 30px;
 }
 .gi ul{
@@ -465,14 +483,14 @@ display: block;
     cursor: pointer;
 }
 .gi ul li:hover{
-    color: green;
-    border-bottom: 2px solid green;
+    color: #1876f2;
+    border-bottom: 2px solid #1876f2;
 }
 .hard{
     display: block;
     position: absolute;
     top: 85px;
-    background-color: azure;
+    background-color: whitesmoke;
     padding:0 30px;
 }
 .hard ul{
@@ -484,8 +502,8 @@ display: block;
     margin: 15px 0;
 }
 .hard ul li:hover{
-    color: green;
-    border-bottom: 2px solid green;
+    color: #1876f2;
+    border-bottom: 2px solid #70aeff;
 }
  
 
@@ -493,7 +511,7 @@ display: block;
     display: block;
     position: absolute;
     top: 85px;
-    background-color: azure;
+    background-color: whitesmoke;
     padding:0 30px;
 }
 .life ul{
@@ -505,14 +523,14 @@ display: block;
     cursor: pointer;
 }
 .life ul li:hover{
-    color: green;
-    border-bottom: 2px solid green;
+    color: #1876f2;
+    border-bottom: 2px solid #569fff;
 }
 .theque{
     display: block;
     position: absolute;
     top: 85px;
-    background-color: azure;
+    background-color: whitesmoke;
     padding:0 30px;
 }
 .theque ul{
@@ -526,7 +544,7 @@ display: block;
 
 }
 .theque ul li:hover{
-    color: green;
+    color: #1876f2;
    border: none;
 
   margin: 0;
@@ -548,38 +566,56 @@ display: block;
     /* background-image: url("../img/universite\ roy\ faycale.jpg"); */
     animation-duration: 33s;
     animation-iteration-count: infinite;
-    transition: 30s linear;
+    transition: 80s linear;
     margin-top:0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+.hr{
+    display: flex;
+    width: 100%;
+}
+.hr hr:nth-child(1){
+background-color: blue;
+padding: 2px;
+width: 100%;
+border: 1px solid blue;
+}
+.hr hr:nth-child(2){
+    background-color: yellow;
+    padding: 2px;
+    width: 100%;
+    border: 1px solid yellow;
+}
+.hr hr:nth-child(3){
+    background-color: red;
+    padding: 2px;
+    width: 100%;
+    border: 1px solid red;
+}
 @keyframes felix {
-         0%{background-image: url("../img/bibliotheques.jpeg")}
-         25%{
-            background-image: url("../img/second.jpg");
-         }
-         50%{background-image: url("../img/universite\ roy\ faycale.jpg");
-        }
-        75%{background-image: url("../img/first.jpg");}
-       100%{background-image: url("../img/campus.jpg")}
+         0%{background-image: url("../img/images.png")}
+         50%{background-image: url('../img/images\ \(6\).jpg');}
+       100%{background-image: url("../img/images\ \(7\).jpg")}
 }
 .all {
    padding-bottom:10%;
    padding-top:10% ;
+   background-color: rgba(0, 0, 0, 0.123);
 }
 .dot{
     display: inline-block;
     padding: 24px 15px;
-    color: white;
-    background:rgba(39, 143, 39, 0.74); 
+    color: #3c6aff;
+    background:white; 
     margin-top: 20%;
     margin-left: 20px;
     width: 70%;
     font-size: 40px;
     font-weight: 400;
-    opacity: 0.9;
-    text-shadow: 3px 2px 4px 3px black;
+    opacity: 0.8;
+    text-shadow: 3px 5px 4px 5px blue;
 }
 .dot strong{
     font-size: 43px;
@@ -592,15 +628,17 @@ display: block;
     margin-bottom: 10%;
     font-size: 20px;
     padding: 10px;
-    border-left:6px solid green; 
+    border-left:6px solid #1876f2; 
     background-color: white;
     opacity: 0.8;
     border-radius: 5px;
+    color: rgba(55, 55, 255, 0.884);
 }
 .sol{
     width: 100%;
     height: 220px;
-    background-color: rgb(118, 255, 118);
+    background-color:#68aaff;
+    opacity: 0.7;
 }
 .panpa{
     display: flex;
@@ -612,8 +650,9 @@ display: block;
 
 .ter{
     font-size: 32px ;
-    color: green;
+    color:#0460d8;
     font-weight: bold;
+    text-shadow: 2px 2px 3px gray;
 }
 .ter img{
     width: 70px;
@@ -625,8 +664,9 @@ display: block;
 }
 .walt{
     font-size: 32px ;
-    color: green;
+    color: #0460d8;
     font-weight: bold;
+    text-shadow: 2px 2px 3px gray;
 }
 .walt img{
     width: 70px;
@@ -639,7 +679,8 @@ display: block;
 .west{
     font-size: 32px;
     font-weight: bold;
-    color: green;
+    color:#0460d8;
+    text-shadow: 2px 2px 3px gray;
 }
 .west img{
     width: 130px;
@@ -672,8 +713,8 @@ display: block;
     text-align: center;
 }
 .sala h3{
-    color: green;
-    font-size: 27px;
+    color:#1876f2;
+    font-size: 29px;
     font-weight: bold;
     text-align: center;
 }
@@ -692,11 +733,12 @@ display: block;
     padding: 0 30px;
 }
 .sala button{
-    background-color:green;
-    padding: 10px 10px;
+    background-color:#1876f2;
+    padding: 5px 10px;
     float: right;
     margin-top: -20px;
-    border-radius: 5px;
+    border-radius: 3px;
+    border: 2px solid #1876f2;
 }
 .sala button a{
     text-decoration: none;
@@ -726,7 +768,7 @@ display: block;
     padding: 30px;
 }
 .pap h1{
-    color: green;
+    color: rgb(62, 146, 255);
     padding: 26px 0 0 0;
     text-align: center;
     text-decoration: underline;
@@ -743,7 +785,7 @@ display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color:black;
+    background-color:aliceblue;
     width: 100%;
     height: 100%;
     z-index: 2;
@@ -793,7 +835,7 @@ display: block;
     0%{color:rgb(255, 68, 68); text-shadow: 0 0 5px white;
         margin-top:-2%;
   }
-    90%{color:rgb(22, 22, 22);
+    90%{color:aliceblue;
         margin-top:-1%;
     }
     100%{color: rgb(247, 53, 53);
@@ -807,7 +849,7 @@ display: block;
     flex-direction: column;
     line-height: 1.5;
     display: flex;
-    color: rgb(194, 223, 248);
+    color: white;
     font-size: 30px;
     margin-bottom: 23px;
     font-weight: bold;
@@ -823,7 +865,7 @@ display: block;
     position: relative;
 }
 .auteur{
-    color: aquamarine;
+    color: rgb(203, 231, 255);
     font-size: 22px;
     font-weight: bold;
     margin-top: 70px;
@@ -832,7 +874,7 @@ display: block;
 }
 .pap button{
     color:white;
-    background:green;
+    background:#1876f2;
     padding: 8px 8px;
     border-radius: 5px;
     margin: 18px;
@@ -845,6 +887,7 @@ display: block;
     position:relative;
     top: 90px;
     right: 73px;
+    border: 1px solid #1876f2;
 }
 .reel h1{
     color: midnightblue;
@@ -853,9 +896,10 @@ display: block;
     margin: 30px;
 }
 .reel h1 strong{
-    color: rgb(7, 168, 7);
+    color:#1876f2;
     font-weight: 600;
     font-size: 28px;
+    text-shadow: 2px 2px 2px gray;
 }
 .reel h1 span{
     color:#0e0d0d;
@@ -911,20 +955,20 @@ display: block;
 }
 .doc{
     padding: 8px 6px;
-    background-color: green;
+    background-color: #1876f2;
     color: white;
     border-radius: 4px;
     margin-left: 70%;
     font-size: 20px;
     margin-top: 32px;
-    border: 2px solid green;
+    border: 2px solid #1876f2;
     border-radius: 5px;
 }
 .togui a{
     text-decoration: none;
     list-style: none;
     color: white;
-    background-color:green;
+    background-color:#1876f2;
 }
 .togui img{
 width: 120px;
@@ -1029,8 +1073,8 @@ margin-left: 45%;
     color: #414141;
 }
 .voisine div span a:hover{
-    color: green;
-   border-bottom: 2px solid green;
+    color: #1876f2;
+   border-bottom: 2px solid #1876f2;
 }
 .voisin{
     display: flex;
@@ -1117,8 +1161,9 @@ font-family: sans-serif;
     float: right;
     margin-right: 20px;
     position: absolute;
-    right: 0;
+    right: 60px;
     margin-top: -100px;
+    border: 1px solid rgb(76, 76, 255) ;
 }
 .yan a{
     text-decoration: none;
@@ -1144,7 +1189,7 @@ font-family: sans-serif;
     position: relative;
 }
 .alph h2{
-    color:rgb(45, 45, 109);
+    color:rgb(76, 76, 255);
     font-family: sans-serif;
     font-weight: bold;
     font-size: 37px;
@@ -1154,7 +1199,7 @@ font-family: sans-serif;
 }
 .alph button {
     
-    background-color:rgb(45, 45, 109);
+    background-color:rgb(76, 76, 255);
     padding: 8px 7px;
     margin-top: 10px;
     border-radius: 6px;
@@ -1163,6 +1208,7 @@ font-family: sans-serif;
     float: right;
     position: relative;
     right: 70px;
+    border: 1px solid rgb(76, 76, 255);
 }
 .alph a{
     list-style: none;
@@ -1175,7 +1221,7 @@ font-family: sans-serif;
 }
 .alph button:hover,
 .alph button:active{
-    background-color: green;
+    background-color: rgb(76, 76, 255);
     color: white;
     padding: 8px 5px;
     border-radius: 6px;
@@ -1222,12 +1268,12 @@ font-family: sans-serif;
    font-weight: 600;
 }
 .if div span:hover{
-    color: green;
-    border-bottom: 2px solid green;
+    color: white;
+    border-bottom: 2px solid rgb(76, 76, 255);
 }
 .if h3{
     text-align: center;
-    color: rgb(88, 180, 88);
+    color: rgb(50, 156, 255);
     padding: 20px 0;
     font-size: 20px;
 }
@@ -1299,10 +1345,11 @@ cursor: pointer;
 border-radius: 6px;
 color: green;
 font-weight: 700;
+border: 1px solid rgba(231, 231, 24, 0.918);
 }
 .oh div button a{
     text-decoration: none;
-    color: green;
+    color:#2c394b;
     font-size: 18px;
 }
 .writer{
@@ -1343,6 +1390,7 @@ font-weight: 700;
     color: white;
     cursor: pointer;
     border-radius: 3px;
+    border: 1px solid green;
 }
 #del{
     background-color: red;
@@ -1351,6 +1399,7 @@ font-weight: 700;
     color: white;
     border-radius: 3px;
     cursor: pointer;
+    border: 1px solid red;
 }
 .profe img{
     width:700px;
@@ -1362,14 +1411,14 @@ font-weight: 700;
 }
 .class h2{
     text-align: center;
-    font-size: 32px;
+    font-size: 39px;
     font-weight: bold;
     color:rgb(49, 1, 94);
 }
 .class p{
     padding: 0 40px;
     line-height: 1.4em;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 500;
 }
 .class button{
@@ -1379,8 +1428,9 @@ font-weight: 700;
     top: 20px;
     bottom: 20px;
     padding: 10px 10px;
-    background-color: green;
+    background-color: #1876f2;
     border-radius: 5px;
+    border: 1px solid #1876f2;
 }
 .class button a{
     color: white;
@@ -1399,13 +1449,13 @@ font-weight: 700;
 .corn div h2{
     color:red;
     text-align: center;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
     margin: 10px 0;
 }
 .corn div p{
     padding: 0 30px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 500;
     line-height: 1.6em;
 }
@@ -1416,8 +1466,10 @@ font-weight: 700;
     top: 40px;
     font-size: 20px;
     padding: 10px;
-    background-color: green;
+    background-color: #1876f2;
     color: white;
+    border: 1px solid #1876f2;
+    border-radius: 4px;
 }
 .hour{
     display: flex;
@@ -1497,7 +1549,7 @@ font-weight: 700;
     font-weight: 300;
 }
 .pere hr{
-   background-color: green;
+   background-color: rgb(55, 133, 250);
  
     margin: 10px 0;
 }
@@ -1529,7 +1581,7 @@ font-weight: 700;
 }
 
 .instal hr{
-    border: 1px solid green;
+    border: 1px solid rgb(21, 96, 235);
     margin: 5px 0;
 }
 .der{
@@ -1974,6 +2026,15 @@ margin: 10px 1px;
 
 
 @media(max-width:1100px){
+    .off{
+       padding: 10px 40px;
+    }
+    .off h2{
+        font-size: 20px;
+    }
+    .off i{
+        font-size: 20px;
+    }
     .papi span{
         font-size: 18px;
         font-weight: bold;
@@ -2156,7 +2217,7 @@ margin: 10px 1px;
     .center{
         position: absolute;
         right: -3px;
-        top: 101%;
+        top: 102%;
         width: 83%;
         background-color:black;
         height: 100vh;
